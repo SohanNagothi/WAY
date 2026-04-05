@@ -1,0 +1,44 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme — Dark -->
+    <style name="Base.Theme.WAY" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary -->
+        <item name="colorPrimary">@color/way_primary</item>
+        <item name="colorPrimaryDark">@color/way_primary_dark</item>
+        <item name="colorPrimaryContainer">@color/way_primary_container</item>
+        <item name="colorOnPrimary">@color/way_on_primary</item>
+        <item name="colorOnPrimaryContainer">@color/way_on_primary_container</item>
+
+        <!-- Secondary -->
+        <item name="colorSecondary">@color/way_secondary</item>
+        <item name="colorSecondaryContainer">@color/way_secondary_container</item>
+        <item name="colorOnSecondary">@color/way_on_secondary</item>
+        <item name="colorOnSecondaryContainer">@color/way_on_secondary_container</item>
+
+        <!-- Tertiary -->
+        <item name="colorTertiary">@color/way_tertiary</item>
+        <item name="colorTertiaryContainer">@color/way_tertiary_container</item>
+
+        <!-- Error -->
+        <item name="colorError">@color/way_error</item>
+        <item name="colorErrorContainer">@color/way_error_container</item>
+        <item name="colorOnError">@color/way_on_error</item>
+
+        <!-- Surface -->
+        <item name="colorSurface">@color/way_surface</item>
+        <item name="colorSurfaceVariant">@color/way_surface_variant</item>
+        <item name="colorOnSurface">@color/way_on_surface</item>
+        <item name="colorOnSurfaceVariant">@color/way_on_surface_variant</item>
+        <item name="colorOutline">@color/way_outline</item>
+
+        <!-- Background -->
+        <item name="android:colorBackground">@color/way_background</item>
+
+        <!-- Status bar -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Accent compat -->
+        <item name="colorAccent">@color/way_accent</item>
+    </style>
+</resources>

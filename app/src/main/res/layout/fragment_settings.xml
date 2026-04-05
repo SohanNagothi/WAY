@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:colorBackground"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="32dp">
+
+        <!-- Header -->
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_title"
+            style="@style/WAY.Text.HeadlineMedium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_subtitle"
+            style="@style/WAY.Text.BodyMedium"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Account section label -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_section_account"
+            style="@style/WAY.Text.LabelSmall"
+            android:textColor="@color/way_primary"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Profile card -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardProfile"
+            style="@style/WAY.Card.Outlined"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_person"
+                    app:tint="@color/way_on_surface_variant"
+                    android:contentDescription="@string/cd_profile" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/settings_profile"
+                    style="@style/WAY.Text.BodyLarge"
+                    android:layout_marginStart="16dp" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:src="@drawable/ic_chevron_right"
+                    app:tint="@color/way_outline"
+                    android:contentDescription="@string/cd_navigate" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Emergency Code card -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardEmergencyCode"
+            style="@style/WAY.Card.Outlined"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_lock"
+                    app:tint="@color/way_on_surface_variant"
+                    android:contentDescription="@string/cd_emergency_code" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/settings_emergency_code"
+                    style="@style/WAY.Text.BodyLarge"
+                    android:layout_marginStart="16dp" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:src="@drawable/ic_chevron_right"
+                    app:tint="@color/way_outline"
+                    android:contentDescription="@string/cd_navigate" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Safety section label -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_section_safety"
+            style="@style/WAY.Text.LabelSmall"
+            android:textColor="@color/way_primary"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Frequent Locations card -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardLocations"
+            style="@style/WAY.Card.Outlined"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_location"
+                    app:tint="@color/way_on_surface_variant"
+                    android:contentDescription="@string/cd_locations" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/settings_locations"
+                    style="@style/WAY.Text.BodyLarge"
+                    android:layout_marginStart="16dp" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:src="@drawable/ic_chevron_right"
+                    app:tint="@color/way_outline"
+                    android:contentDescription="@string/cd_navigate" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Battery Optimization card -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardBattery"
+            style="@style/WAY.Card.Outlined"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_battery"
+                    app:tint="@color/way_on_surface_variant"
+                    android:contentDescription="@string/cd_battery" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/settings_battery"
+                    style="@style/WAY.Text.BodyLarge"
+                    android:layout_marginStart="16dp" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:src="@drawable/ic_chevron_right"
+                    app:tint="@color/way_outline"
+                    android:contentDescription="@string/cd_navigate" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Appearance section label -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_section_appearance"
+            style="@style/WAY.Text.LabelSmall"
+            android:textColor="@color/way_primary"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Theme card -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardTheme"
+            style="@style/WAY.Card.Outlined"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_theme"
+                    app:tint="@color/way_on_surface_variant"
+                    android:contentDescription="@string/cd_theme" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginStart="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settings_theme"
+                        style="@style/WAY.Text.BodyLarge" />
+
+                    <TextView
+                        android:id="@+id/tvThemeValue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settings_theme_system"
+                        style="@style/WAY.Text.BodyMedium" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:src="@drawable/ic_chevron_right"
+                    app:tint="@color/way_outline"
+                    android:contentDescription="@string/cd_change" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Sign Out -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSignOut"
+            style="@style/WAY.Button.Outlined"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="@string/settings_sign_out"
+            android:textColor="@color/way_error"
+            app:icon="@drawable/ic_logout"
+            app:iconTint="@color/way_error"
+            app:iconGravity="textStart"
+            app:iconPadding="8dp"
+            app:strokeColor="@color/way_error"
+            android:layout_marginTop="28dp" />
+
+        <!-- App version -->
+        <TextView
+            android:id="@+id/tvAppVersion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_app_version"
+            style="@style/WAY.Text.LabelSmall"
+            android:gravity="center"
+            android:layout_marginTop="24dp"
+            android:alpha="0.5" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

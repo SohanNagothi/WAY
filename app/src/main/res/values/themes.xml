@@ -1,0 +1,179 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme — Light -->
+    <style name="Base.Theme.WAY" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary -->
+        <item name="colorPrimary">@color/way_primary</item>
+        <item name="colorPrimaryDark">@color/way_primary_dark</item>
+        <item name="colorPrimaryContainer">@color/way_primary_container</item>
+        <item name="colorOnPrimary">@color/way_on_primary</item>
+        <item name="colorOnPrimaryContainer">@color/way_on_primary_container</item>
+
+        <!-- Secondary -->
+        <item name="colorSecondary">@color/way_secondary</item>
+        <item name="colorSecondaryContainer">@color/way_secondary_container</item>
+        <item name="colorOnSecondary">@color/way_on_secondary</item>
+        <item name="colorOnSecondaryContainer">@color/way_on_secondary_container</item>
+
+        <!-- Tertiary -->
+        <item name="colorTertiary">@color/way_tertiary</item>
+        <item name="colorTertiaryContainer">@color/way_tertiary_container</item>
+
+        <!-- Error -->
+        <item name="colorError">@color/way_error</item>
+        <item name="colorErrorContainer">@color/way_error_container</item>
+        <item name="colorOnError">@color/way_on_error</item>
+
+        <!-- Surface -->
+        <item name="colorSurface">@color/way_surface</item>
+        <item name="colorSurfaceVariant">@color/way_surface_variant</item>
+        <item name="colorOnSurface">@color/way_on_surface</item>
+        <item name="colorOnSurfaceVariant">@color/way_on_surface_variant</item>
+        <item name="colorOutline">@color/way_outline</item>
+
+        <!-- Background -->
+        <item name="android:colorBackground">@color/way_background</item>
+
+        <!-- Status bar -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- Accent compat -->
+        <item name="colorAccent">@color/way_accent</item>
+    </style>
+
+    <style name="Theme.WAY" parent="Base.Theme.WAY" />
+
+    <!-- ═══════ Custom Component Styles ═══════ -->
+
+    <!-- Primary filled button — large rounded -->
+    <style name="WAY.Button.Primary" parent="Widget.Material3.Button">
+        <item name="cornerRadius">16dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+
+    <!-- Outlined button -->
+    <style name="WAY.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="cornerRadius">16dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+        <item name="strokeColor">@color/way_outline</item>
+    </style>
+
+    <!-- Text button -->
+    <style name="WAY.Button.Text" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Elevated card -->
+    <style name="WAY.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">2dp</item>
+    </style>
+
+    <!-- Filled card -->
+    <style name="WAY.Card.Filled" parent="Widget.Material3.CardView.Filled">
+        <item name="cardCornerRadius">20dp</item>
+    </style>
+
+    <!-- Outlined card -->
+    <style name="WAY.Card.Outlined" parent="Widget.Material3.CardView.Outlined">
+        <item name="cardCornerRadius">20dp</item>
+        <item name="strokeColor">@color/way_outline_variant</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+
+    <!-- TextInputLayout -->
+    <style name="WAY.TextInput" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">14dp</item>
+        <item name="boxCornerRadiusTopEnd">14dp</item>
+        <item name="boxCornerRadiusBottomStart">14dp</item>
+        <item name="boxCornerRadiusBottomEnd">14dp</item>
+    </style>
+
+    <!-- Base text style -->
+    <style name="WAY.Text" parent="android:Widget.TextView" />
+
+    <!-- Heading text styles -->
+    <style name="WAY.Text.HeadlineLarge">
+        <item name="android:textSize">32sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/way_on_surface</item>
+        <item name="android:letterSpacing">-0.02</item>
+    </style>
+
+    <style name="WAY.Text.HeadlineMedium">
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/way_on_surface</item>
+    </style>
+
+    <style name="WAY.Text.TitleLarge">
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/way_on_surface</item>
+    </style>
+
+    <style name="WAY.Text.TitleMedium">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/way_on_surface</item>
+    </style>
+
+    <style name="WAY.Text.BodyLarge">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/way_on_surface</item>
+    </style>
+
+    <style name="WAY.Text.BodyMedium">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/way_on_surface_variant</item>
+    </style>
+
+    <style name="WAY.Text.LabelLarge">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/way_on_surface_variant</item>
+        <item name="android:letterSpacing">0.01</item>
+    </style>
+
+    <style name="WAY.Text.LabelSmall">
+        <item name="android:textSize">11sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/way_on_surface_variant</item>
+        <item name="android:letterSpacing">0.05</item>
+    </style>
+
+    <!-- Bottom Nav styling -->
+    <style name="WAY.BottomNav" parent="Widget.Material3.BottomNavigationView">
+        <item name="backgroundTint">@color/way_bottom_nav_bg</item>
+        <item name="itemIconTint">@color/bottom_nav_color_selector</item>
+        <item name="itemTextColor">@color/bottom_nav_color_selector</item>
+        <item name="labelVisibilityMode">labeled</item>
+        <item name="itemActiveIndicatorStyle">@style/WAY.BottomNav.ActiveIndicator</item>
+    </style>
+
+    <style name="WAY.BottomNav.ActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/way_primary_container</item>
+    </style>
+
+    <!-- Toolbar -->
+    <style name="WAY.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="titleTextColor">@color/way_on_surface</item>
+        <item name="android:background">@color/way_surface</item>
+        <item name="materialThemeOverlay">@style/WAY.Toolbar.ThemeOverlay</item>
+    </style>
+
+    <style name="WAY.Toolbar.ThemeOverlay" parent="">
+        <item name="colorOnSurface">@color/way_on_surface</item>
+        <item name="colorOnSurfaceVariant">@color/way_on_surface</item>
+    </style>
+
+</resources>

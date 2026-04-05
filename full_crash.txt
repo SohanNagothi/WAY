@@ -1,0 +1,501 @@
+--------- beginning of main
+03-01 17:34:39.033  1272 20976 I MERTA_Plugin: INFO(start[93]):start[93]
+03-01 17:34:39.033  1272 20976 I ExynosCameraMCPipe: [CAM(1)][PIPE_LME_SRC_IMAGE]-(m_startNode[1355]):
+03-01 17:34:39.033  1272 20976 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_LME_SRC_IMAGE]-(start[233]):start() is succeed, Pipe(47)
+03-01 17:34:39.033  1272 20976 I ExynosCameraMCPipe: [CAM(1)][PIPE_ISP]-(m_startNode[1355]):
+03-01 17:34:39.033  1272 20976 I ExynosCameraNode: [CAM(1)][ISP_NOISE]-(start[443]):skip node start. request buffer is zero
+03-01 17:34:39.033  1272 20976 I ExynosCameraNode: [CAM(1)][ISP_NRDS]-(start[443]):skip node start. request buffer is zero
+03-01 17:34:39.033  1272 20976 I ExynosCameraNode: [CAM(1)][MCSC_RECORDING]-(start[443]):skip node start. request buffer is zero
+03-01 17:34:39.033  1272 20976 I ExynosCameraNode: [CAM(1)][MCSC_PREVIEW_CALLBACK]-(start[443]):skip node start. request buffer is zero
+03-01 17:34:39.033  1272 20976 I ExynosCameraNode: [CAM(1)][ISP_DRC_GAIN]-(start[443]):skip node start. request buffer is zero
+03-01 17:34:39.033  1272 20976 I ExynosCameraNode: [CAM(1)][ISP_SVHIST]-(start[443]):skip node start. request buffer is zero
+03-01 17:34:39.033  1272 20976 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_ISP]-(start[233]):start() is succeed, Pipe(12)
+03-01 17:34:39.033  1272 20976 I ExynosCameraPipePPSec: [CAM(1)][PIPE_PP_UNI0]-(start[365]):
+03-01 17:34:39.033  1272 20976 I ExynosCameraPipePPSec: [CAM(1)][PIPE_PP_UNI1]-(start[365]):
+03-01 17:34:39.033  1272 20976 I ExynosCameraPipePPSec: [CAM(1)][PIPE_PP_UNI2]-(start[365]):
+03-01 17:34:39.033  1272 20976 I ExynosCameraPipePPSec: [CAM(1)][PIPE_PP_UNI3]-(start[365]):
+03-01 17:34:39.033  1272 20976 I ExynosCameraPipePPSec: [CAM(1)][PIPE_PP_SINGLE0]-(start[365]):
+03-01 17:34:39.033  1272 20976 I ExynosCameraPipePPSec: [CAM(1)][PIPE_PP_SINGLE1]-(start[365]):
+03-01 17:34:39.033  1272 20976 I ExynosCameraPipePPSec: [CAM(1)][PIPE_PP_SINGLE2]-(start[365]):
+03-01 17:34:39.033  1272 20976 I ExynosCameraMCPipe: [CAM(1)][PIPE_3AA]-(m_startNode[1355]):
+03-01 17:34:39.034  1658  2106 D SemWifiTrafficPoller: getSoftApTotalTrafficInBytes:1608706892
+03-01 17:34:39.034  1272 20976 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_3AA]-(start[233]):start() is succeed, Pipe(6)
+03-01 17:34:39.034  1272 20976 I ExynosCameraMCPipe: [CAM(1)][PIPE_3AA]-(prepare[72]):
+03-01 17:34:39.034  1272 20976 I ExynosCameraMCPipe: [CAM(1)][PIPE_3AA]-(prepare[83]):
+03-01 17:34:39.034  1272 20976 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_3AA]-(m_putBuffer[776]):[F1 FT7] Internal Frame(1) FrameQ_size (4, 0) size(0)
+03-01 17:34:39.034  1272 20976 E ExynosCameraBufferManagerVendor: [CAM(1)][FLITE_BUF]-(getBuffer[317]):m_allocatedBufCount equals zero
+03-01 17:34:39.034  1272 20976 E ExynosCameraBufferSupplierVendor: [CAM(1)][BufferSupplier]-(getBuffer[185]):[FLITE_BUF][P7 T0 B-1 A0x7c37223388]Failed to getBuffer. ret -38
+03-01 17:34:39.034  1272 20976 E ExynosCameraMCPipeSec: [CAM(1)][PIPE_3AA]-(m_putBuffer[855]):[F1 FT7][3AA_CAPTURE]Failed to getBuffer from BufferSupplier. ret -38 FrameQ_size (4, 0) size(0)
+03-01 17:34:39.034  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printEntity[77]): FrameCount(1(0)), type(7), state(0), request(2), complete(0)
+03-01 17:34:39.034  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req0] sibling id(6), state(2)
+03-01 17:34:39.034  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req1] sibling id(45), state(1)
+03-01 17:34:39.034  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req0] sibling id(33), state(1)
+03-01 17:34:39.034  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req0] sibling id(34), state(1)
+03-01 17:34:39.034  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(m_dumpStatusForResultUpdate[1955]):[F1 T7]ResultType  0 PipeId   6 ResultUpdateStatus  0
+03-01 17:34:39.034  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(m_dumpStatusForResultUpdate[1955]):[F1 T7]ResultType  1 PipeId   6 ResultUpdateStatus  0
+03-01 17:34:39.034  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(m_dumpStatusForResultUpdate[1955]):[F1 T7]ResultType  2 PipeId   6 ResultUpdateStatus  0
+03-01 17:34:39.034  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[111]): FrameCount(1(0)), type(7), state(0), request(2), complete(0)
+03-01 17:34:39.034  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:0] sibling id(6), state(2)
+03-01 17:34:39.034  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:1] sibling id(45), state(1)
+03-01 17:34:39.034  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:0] sibling id(33), state(1)
+03-01 17:34:39.034  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:0] sibling id(34), state(1)
+03-01 17:34:39.034  1272 20976 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(73)'s request is true
+03-01 17:34:39.034  1272 20976 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(45)'s request is true
+03-01 17:34:39.034  1272 20976 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(11)'s request is true
+03-01 17:34:39.034  1272 20976 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(9)'s request is true
+03-01 17:34:39.034  1272 20976 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(7)'s request is true
+03-01 17:34:39.034  1272 20976 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_3AA]-(m_checkNodeGroupInfo[2803]):[REQ:0,F:1,DRV:0,T:7] (FLITE):vid(0), request(0 -> 1), oldCropSize(0, 0, 0, 0 / 0, 0, 0, 0) -> newCropSize(40, 30, 3184, 2388 / 0, 0, 3184, 2388)
+03-01 17:34:39.034  1272 20976 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_3AA]-(m_checkNodeGroupInfo[2803]):[REQ:0,F:1,DRV:0,T:7] (BAYER):vid(114), request(0 -> 0), oldCropSize(0, 0, 0, 0 / 0, 0, 0, 0) -> newCropSize(0, 0, 3264, 2448 / 0, 0, 3264, 2448)
+03-01 17:34:39.034  1272 20976 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_3AA]-(m_checkNodeGroupInfo[2803]):[REQ:0,F:1,DRV:0,T:7] (3AA_CAPTURE):vid(11), request(0 -> 0), oldCropSize(0, 0, 0, 0 / 0, 0, 0, 0) -> newCropSize(0, 0, 3184, 2388 / 0, 0, 3184, 2388)
+03-01 17:34:39.034  1272 20976 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_3AA]-(m_checkNodeGroupInfo[2803]):[REQ:0,F:1,DRV:0,T:7] (3AA_PREVIEW):vid(12), request(0 -> 0), oldCropSize(0, 0, 0, 0 / 0, 0, 0, 0) -> newCropSize(0, 0, 3184, 2388 / 0, 0, 3184, 2388)
+03-01 17:34:39.034  1272 20976 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_3AA]-(m_checkNodeGroupInfo[2803]):[REQ:0,F:1,DRV:0,T:7] (3AA_DRC):vid(155), request(0 -> 1), oldCropSize(0, 0, 0, 0 / 0, 0, 0, 0) -> newCropSize(0, 0, 1024, 256 / 0, 0, 1024, 256)
+03-01 17:34:39.034  1272 20976 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_3AA]-(m_checkNodeGroupInfo[2803]):[REQ:0,F:1,DRV:0,T:7] (3AA_ORBC):vid(15), request(0 -> 1), oldCropSize(0, 0, 0, 0 / 0, 0, 0, 0) -> newCropSize(0, 0, 2016, 1512 / 0, 0, 2016, 1512)
+03-01 17:34:39.035  1272 20976 E ExynosCameraBufferManagerVendor: [CAM(1)][FLITE_BUF]-(getBuffer[317]):m_allocatedBufCount equals zero
+03-01 17:34:39.035  1272 20976 E ExynosCameraBufferSupplierVendor: [CAM(1)][BufferSupplier]-(getBuffer[185]):[FLITE_BUF][P7 T0 B-1 A0x7c37223388]Failed to getBuffer. ret -38
+03-01 17:34:39.035  1272 20976 E ExynosCameraMCPipeSec: [CAM(1)][PIPE_3AA]-(m_putBuffer[855]):[F2 FT7][3AA_CAPTURE]Failed to getBuffer from BufferSupplier. ret -38 FrameQ_size (3, 1) size(1)
+03-01 17:34:39.035  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printEntity[77]): FrameCount(2(0)), type(7), state(0), request(2), complete(0)
+03-01 17:34:39.035  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req0] sibling id(6), state(2)
+03-01 17:34:39.035  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req1] sibling id(45), state(1)
+03-01 17:34:39.035  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req0] sibling id(33), state(1)
+03-01 17:34:39.035  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req0] sibling id(34), state(1)
+03-01 17:34:39.035  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(m_dumpStatusForResultUpdate[1955]):[F2 T7]ResultType  0 PipeId   6 ResultUpdateStatus  0
+03-01 17:34:39.035  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(m_dumpStatusForResultUpdate[1955]):[F2 T7]ResultType  1 PipeId   6 ResultUpdateStatus  0
+03-01 17:34:39.035  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(m_dumpStatusForResultUpdate[1955]):[F2 T7]ResultType  2 PipeId   6 ResultUpdateStatus  0
+03-01 17:34:39.035  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[111]): FrameCount(2(0)), type(7), state(0), request(2), complete(0)
+03-01 17:34:39.035  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:0] sibling id(6), state(2)
+03-01 17:34:39.035  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:1] sibling id(45), state(1)
+03-01 17:34:39.035  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:0] sibling id(33), state(1)
+03-01 17:34:39.035  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:0] sibling id(34), state(1)
+03-01 17:34:39.035  1272 20976 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(73)'s request is true
+03-01 17:34:39.035  1272 20976 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(45)'s request is true
+03-01 17:34:39.035  1272 20976 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(11)'s request is true
+03-01 17:34:39.035  1272 20976 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(9)'s request is true
+03-01 17:34:39.035  1272 20976 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(7)'s request is true
+03-01 17:34:39.037  1272 20976 E ExynosCameraBufferManagerVendor: [CAM(1)][FLITE_BUF]-(getBuffer[317]):m_allocatedBufCount equals zero
+03-01 17:34:39.037  1272 20976 E ExynosCameraBufferSupplierVendor: [CAM(1)][BufferSupplier]-(getBuffer[185]):[FLITE_BUF][P7 T0 B-1 A0x7c37223388]Failed to getBuffer. ret -38
+03-01 17:34:39.037  1272 20976 E ExynosCameraMCPipeSec: [CAM(1)][PIPE_3AA]-(m_putBuffer[855]):[F3 FT7][3AA_CAPTURE]Failed to getBuffer from BufferSupplier. ret -38 FrameQ_size (2, 2) size(2)
+03-01 17:34:39.037  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printEntity[77]): FrameCount(3(0)), type(7), state(0), request(2), complete(0)
+03-01 17:34:39.037  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req0] sibling id(6), state(2)
+03-01 17:34:39.037  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req1] sibling id(45), state(1)
+03-01 17:34:39.037  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req0] sibling id(33), state(1)
+03-01 17:34:39.037  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req0] sibling id(34), state(1)
+03-01 17:34:39.037  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(m_dumpStatusForResultUpdate[1955]):[F3 T7]ResultType  0 PipeId   6 ResultUpdateStatus  0
+03-01 17:34:39.037  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(m_dumpStatusForResultUpdate[1955]):[F3 T7]ResultType  1 PipeId   6 ResultUpdateStatus  0
+03-01 17:34:39.037  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(m_dumpStatusForResultUpdate[1955]):[F3 T7]ResultType  2 PipeId   6 ResultUpdateStatus  0
+03-01 17:34:39.037  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[111]): FrameCount(3(0)), type(7), state(0), request(2), complete(0)
+03-01 17:34:39.037  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:0] sibling id(6), state(2)
+03-01 17:34:39.037  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:1] sibling id(45), state(1)
+03-01 17:34:39.037  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:0] sibling id(33), state(1)
+03-01 17:34:39.037  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:0] sibling id(34), state(1)
+03-01 17:34:39.037  1272 20976 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(73)'s request is true
+03-01 17:34:39.037  1272 20976 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(45)'s request is true
+03-01 17:34:39.037  1272 20976 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(11)'s request is true
+03-01 17:34:39.037  1272 20976 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(9)'s request is true
+03-01 17:34:39.037  1272 20976 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(7)'s request is true
+03-01 17:34:39.038  1272 20976 E ExynosCameraBufferManagerVendor: [CAM(1)][FLITE_BUF]-(getBuffer[317]):m_allocatedBufCount equals zero
+03-01 17:34:39.038  1272 20976 E ExynosCameraBufferSupplierVendor: [CAM(1)][BufferSupplier]-(getBuffer[185]):[FLITE_BUF][P7 T0 B-1 A0x7c37223388]Failed to getBuffer. ret -38
+03-01 17:34:39.038  1272 20976 E ExynosCameraMCPipeSec: [CAM(1)][PIPE_3AA]-(m_putBuffer[855]):[F4 FT2][3AA_CAPTURE]Failed to getBuffer from BufferSupplier. ret -38 FrameQ_size (1, 3) size(3)
+03-01 17:34:39.038  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printEntity[77]): FrameCount(4(0)), type(2), state(0), request(5), complete(0)
+03-01 17:34:39.038  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req1] sibling id(6), state(2)
+03-01 17:34:39.038  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req1] sibling id(47), state(1)
+03-01 17:34:39.038  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req1] sibling id(12), state(1)
+03-01 17:34:39.038  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req1] sibling id(45), state(1)
+03-01 17:34:39.038  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req1] sibling id(87), state(1)
+03-01 17:34:39.038  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req0] sibling id(33), state(1)
+03-01 17:34:39.038  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req0] sibling id(34), state(1)
+03-01 17:34:39.038  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(m_dumpStatusForResultUpdate[1955]):[F4 T2]ResultType  0 PipeId   6 ResultUpdateStatus  1
+03-01 17:34:39.038  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(m_dumpStatusForResultUpdate[1955]):[F4 T2]ResultType  1 PipeId  12 ResultUpdateStatus  1
+03-01 17:34:39.038  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(m_dumpStatusForResultUpdate[1955]):[F4 T2]ResultType  2 PipeId  12 ResultUpdateStatus  1
+03-01 17:34:39.038  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[111]): FrameCount(4(0)), type(2), state(0), request(5), complete(0)
+03-01 17:34:39.038  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:1] sibling id(6), state(2)
+03-01 17:34:39.038  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:1] sibling id(47), state(1)
+03-01 17:34:39.038  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:1] sibling id(12), state(1)
+03-01 17:34:39.038  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:1] sibling id(45), state(1)
+03-01 17:34:39.038  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:1] sibling id(87), state(1)
+03-01 17:34:39.038  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:0] sibling id(33), state(1)
+03-01 17:34:39.038  1272 20976 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:0] sibling id(34), state(1)
+03-01 17:34:39.038  1272 20976 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(88)'s request is true
+03-01 17:34:39.038  1272 20976 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(87)'s request is true
+03-01 17:34:39.038  1272 20976 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(75)'s request is true
+03-01 17:34:39.038  1272 20976 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(73)'s request is true
+03-01 17:34:39.038  1272 20976 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(51)'s request is true
+03-01 17:34:39.038  1272 20976 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(50)'s request is true
+03-01 17:34:39.038  1272 20976 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(49)'s request is true
+03-01 17:34:39.038  1272 20976 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(47)'s request is true
+03-01 17:34:39.038  1272 20976 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(45)'s request is true
+03-01 17:34:39.038  1272 20976 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(19)'s request is true
+03-01 17:34:39.038  1272 20976 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(12)'s request is true
+03-01 17:34:39.038  1272 20976 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(11)'s request is true
+03-01 17:34:39.038  1272 20976 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(9)'s request is true
+03-01 17:34:39.038  1272 20976 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(8)'s request is true
+03-01 17:34:39.039  1272 20976 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(7)'s request is true
+03-01 17:34:39.039  1272 20976 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(6)'s request is true
+03-01 17:34:39.039  1272 20976 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_3AA]-(m_checkNodeGroupInfo[2803]):[REQ:0,F:4,DRV:0,T:2] (3AA_PREVIEW):vid(12), request(0 -> 1), oldCropSize(0, 0, 3184, 2388 / 0, 0, 3184, 2388) -> newCropSize(0, 0, 3184, 2388 / 0, 0, 3184, 2388)
+03-01 17:34:39.040  1272 20976 I ExynosCameraMCPipe: [CAM(1)][PIPE_3AA]-(prepare[116]):prepare() is succeed, Pipe(6), prepare(4/4)
+03-01 17:34:39.040  1272 20976 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_3AA]-(sensorStream[350]):
+03-01 17:34:39.049  1272 20976 I ExynosCameraFrameFactoryPreviewSec: [CAM(1)][Front_0]-(startPipes[6695]):Starting Success!
+03-01 17:34:39.049  1272 20976 I ExynosCameraQoSManager: [CAM(1)][]-(staticQoSControl[64]):scenario 14
+03-01 17:34:39.050  1272 20976 I ExynosCameraQoSManager: [CAM(1)][]-(m_setQoSControl[123]):[EPIC HAL] EPIC_HAL_CAMERA_SUBMODE(3)
+03-01 17:34:39.050  1272 20976 I ExynosCameraQoSManager: [CAM(1)][]-(m_setQoSControl[137]):V4L2_CID_IS_DVFS_CLUSTER2 setControl min_lock (0x6c0)
+03-01 17:34:39.050  1272 20976 I ExynosCameraQoSManager: [CAM(1)][]-(m_setQoSControl[155]):V4L2_CID_IS_DVFS_CLUSTER0 setControl min_lock (0x720)
+03-01 17:34:39.050  1272 20976 I ExynosCameraFrameFactoryPreviewSec: [CAM(1)][Front_0]-(startInitialThreads[564]):start pre-ordered initial pipe thread
+03-01 17:34:39.050  1272 20976 I ExynosCameraFrameFactoryBaseVendor: [CAM(1)][Front_0]-(startThread[186]):pipeId=6
+03-01 17:34:39.050  1272 20976 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_3AA]-(startThread[239]):
+03-01 17:34:39.050  1272 20976 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_3AA]-(startThread[263]):startThread is succeed, Pipe(6), standby(0)
+03-01 17:34:39.050  1272 20976 I ExynosCameraFrameFactoryBaseVendor: [CAM(1)][Front_0]-(startThread[186]):pipeId=47
+03-01 17:34:39.050  1272 20976 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_LME_SRC_IMAGE]-(startThread[239]):
+03-01 17:34:39.050  1272 20981 E ExynosCameraBufferManagerVendor: [CAM(1)][FLITE_BUF]-(getBuffer[317]):m_allocatedBufCount equals zero
+03-01 17:34:39.051  1272 20976 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_LME_SRC_IMAGE]-(startThread[263]):startThread is succeed, Pipe(47), standby(0)
+03-01 17:34:39.051  1272 20976 I ExynosCameraFrameFactoryBaseVendor: [CAM(1)][Front_0]-(startThread[186]):pipeId=12
+03-01 17:34:39.051  1272 20981 E ExynosCameraBufferSupplierVendor: [CAM(1)][BufferSupplier]-(getBuffer[185]):[FLITE_BUF][P7 T0 B-1 A0x7c365915a8]Failed to getBuffer. ret -38
+03-01 17:34:39.051  1272 20976 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_ISP]-(startThread[239]):
+03-01 17:34:39.051  1272 20981 E ExynosCameraMCPipeSec: [CAM(1)][PIPE_3AA]-(m_putBuffer[855]):[F5 FT2][3AA_CAPTURE]Failed to getBuffer from BufferSupplier. ret -38 FrameQ_size (0, 4) size(4)
+03-01 17:34:39.051  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printEntity[77]): FrameCount(5(0)), type(2), state(0), request(5), complete(0)
+03-01 17:34:39.051  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req1] sibling id(6), state(2)
+03-01 17:34:39.051  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req1] sibling id(47), state(1)
+03-01 17:34:39.051  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req1] sibling id(12), state(1)
+03-01 17:34:39.051  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req1] sibling id(45), state(1)
+03-01 17:34:39.051  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req1] sibling id(87), state(1)
+03-01 17:34:39.051  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req0] sibling id(33), state(1)
+03-01 17:34:39.051  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req0] sibling id(34), state(1)
+03-01 17:34:39.051  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(m_dumpStatusForResultUpdate[1955]):[F5 T2]ResultType  0 PipeId   6 ResultUpdateStatus  1
+03-01 17:34:39.051  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(m_dumpStatusForResultUpdate[1955]):[F5 T2]ResultType  1 PipeId  12 ResultUpdateStatus  1
+03-01 17:34:39.051  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(m_dumpStatusForResultUpdate[1955]):[F5 T2]ResultType  2 PipeId  12 ResultUpdateStatus  1
+03-01 17:34:39.051  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[111]): FrameCount(5(0)), type(2), state(0), request(5), complete(0)
+03-01 17:34:39.051  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:1] sibling id(6), state(2)
+03-01 17:34:39.051  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:1] sibling id(47), state(1)
+03-01 17:34:39.051  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:1] sibling id(12), state(1)
+03-01 17:34:39.051  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:1] sibling id(45), state(1)
+03-01 17:34:39.051  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:1] sibling id(87), state(1)
+03-01 17:34:39.051  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:0] sibling id(33), state(1)
+03-01 17:34:39.051  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:0] sibling id(34), state(1)
+03-01 17:34:39.051  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(88)'s request is true
+03-01 17:34:39.051  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(87)'s request is true
+03-01 17:34:39.051  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(75)'s request is true
+03-01 17:34:39.051  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(73)'s request is true
+03-01 17:34:39.051  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(51)'s request is true
+03-01 17:34:39.051  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(50)'s request is true
+03-01 17:34:39.051  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(49)'s request is true
+03-01 17:34:39.051  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(47)'s request is true
+03-01 17:34:39.051  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(45)'s request is true
+03-01 17:34:39.051  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(19)'s request is true
+03-01 17:34:39.051  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(12)'s request is true
+03-01 17:34:39.051  1272 20976 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_ISP]-(startThread[263]):startThread is succeed, Pipe(12), standby(0)
+03-01 17:34:39.051  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(11)'s request is true
+03-01 17:34:39.051  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(9)'s request is true
+03-01 17:34:39.051  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(8)'s request is true
+03-01 17:34:39.051  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(7)'s request is true
+03-01 17:34:39.051  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(6)'s request is true
+03-01 17:34:39.051  1272 20976 I ExynosCameraSec: [CAM(1)][Front_0]-(m_frameFactoryStartThreadFunc[9743]):Threads run start
+03-01 17:34:39.052  1272 20976 I ExynosCameraSec: [CAM(1)][Front_0]-(m_frameFactoryStartThreadFunc[9858]):[CAMSYSKPI] X
+03-01 17:34:39.052  1272 20976 I ExynosCameraSec: DEBUG:duration time(   33 msec):(m_frameFactoryStartThreadFunc)
+03-01 17:34:39.052  1272 20987 I ExynosCameraVendorCapture: [CAM(1)][Front_0]-(m_setPostBufferThreadFunc[15674]):[CAMSYSKPI] E
+03-01 17:34:39.053  1272 20988 I ExynosCameraFrameSelectorSec: [CAM(1)][]-(setFrameHoldCount[1794]):holdCount : 4
+03-01 17:34:39.053  1272 20988 I ExynosCameraFrameReprocessingFactorySec: [CAM(1)][Front_0]-(initPipes[57]):
+03-01 17:34:39.053  1272 20988 I ExynosCameraFrameReprocessingFactorySec: [CAM(1)][Front_0]-(initPipes[187]):MaxPreviewSize(3264x2448), HwPreviewSize(0x0)
+03-01 17:34:39.053  1272 20988 I ExynosCameraFrameReprocessingFactorySec: [CAM(1)][Front_0]-(initPipes[189]):MaxPictureSize(3264x2448), HwPictureSize(3264x2448), MaxTetraPictureSize(0x0)
+03-01 17:34:39.053  1272 20988 I ExynosCameraFrameReprocessingFactorySec: [CAM(1)][Front_0]-(initPipes[190]):MaxThumbnailSize(512x384)
+03-01 17:34:39.053  1272 20988 I ExynosCameraFrameReprocessingFactorySec: [CAM(1)][Front_0]-(initPipes[191]):PreviewBayerCropSize(3264x2448) PreviewBdsSize(3184x2388)
+03-01 17:34:39.053  1272 20988 I ExynosCameraFrameReprocessingFactorySec: [CAM(1)][Front_0]-(initPipes[193]):DS Size 640x480 Format 3631564e Buffer count 8
+03-01 17:34:39.053  1272 20988 I ExynosCameraFrameReprocessingFactorySec: [CAM(1)][Front_0]-(initPipes[228]):YUV_STALL[3] Size 320x240 Format 3132564e PixelSizeNum 0
+03-01 17:34:39.053  1272 20988 I ExynosCameraFrameReprocessingFactorySec: [CAM(1)][Front_0]-(initPipes[228]):YUV_STALL[4] Size 0x0 Format 3132564e PixelSizeNum 0
+03-01 17:34:39.053  1272 20988 I ExynosCameraFrameReprocessingFactorySec: [CAM(1)][Front_0]-(initPipes[228]):YUV_STALL[5] Size 3264x2448 Format 3132564e PixelSizeNum 0
+03-01 17:34:39.053  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_3AA_REPROCESSING]-(setupPipe[146]):set new sensorIds
+03-01 17:34:39.053  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_3AA_REPROCESSING]-(m_setInput[2247]): setInput(sensorIds : 16871936) [src nodeNum : 214][nodeNums : 241][otf : 0][leader : 0][reprocessing : 1][unique sensorId : 1]
+03-01 17:34:39.053  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_3AA_REPROCESSING]-(m_setInput[2247]): setInput(sensorIds : 16847888) [src nodeNum : 120][nodeNums : 121][otf : 1][leader : 0][reprocessing : 1][unique sensorId : 1]
+03-01 17:34:39.054  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_3AA_REPROCESSING]-(m_setInput[2247]): setInput(sensorIds : 16847888) [src nodeNum : 120][nodeNums : 122][otf : 1][leader : 0][reprocessing : 1][unique sensorId : 1]
+03-01 17:34:39.054  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_3AA_REPROCESSING]-(m_setInput[2247]): setInput(sensorIds : 16847888) [src nodeNum : 120][nodeNums : 123][otf : 1][leader : 0][reprocessing : 1][unique sensorId : 1]
+03-01 17:34:39.054  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_3AA_REPROCESSING]-(m_setInput[2247]): setInput(sensorIds : 16847888) [src nodeNum : 120][nodeNums : 124][otf : 1][leader : 0][reprocessing : 1][unique sensorId : 1]
+03-01 17:34:39.054  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_3AA_REPROCESSING]-(m_setInput[2247]): setInput(sensorIds : 16847888) [src nodeNum : 120][nodeNums : 256][otf : 1][leader : 0][reprocessing : 1][unique sensorId : 1]
+03-01 17:34:39.054  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_3AA_REPROCESSING]-(m_setInput[2247]): setInput(sensorIds : 16878864) [src nodeNum : 241][nodeNums : 120][otf : 1][leader : 0][reprocessing : 1][unique sensorId : 1]
+03-01 17:34:39.054  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_3AA_REPROCESSING]-(m_setPipeInfo[2308]):skip REPROCESSING_3PAF_OUTPUT setNodeInfo, setFormat(0, 0)
+03-01 17:34:39.054  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_3AA_REPROCESSING]-(m_setPipeInfo[2308]):skip REPROCESSING_3AA_CAPTURE_OPT setNodeInfo, setFormat(0, 0)
+03-01 17:34:39.054  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_3AA_REPROCESSING]-(m_setPipeInfo[2308]):skip REPROCESSING_3AA_CAPTURE_MAIN setNodeInfo, setFormat(0, 0)
+03-01 17:34:39.054  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_3AA_REPROCESSING]-(m_setPipeInfo[2308]):skip REPROCESSING_3AA_FD setNodeInfo, setFormat(0, 0)
+03-01 17:34:39.054  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_3AA_REPROCESSING]-(m_setPipeInfo[2308]):skip REPROCESSING_PROCESSED_RAW setNodeInfo, setFormat(0, 0)
+03-01 17:34:39.054  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_3AA_REPROCESSING]-(m_setPipeInfo[2308]):skip REPROCESSING_3AA_DRC setNodeInfo, setFormat(0, 0)
+03-01 17:34:39.054  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_3AA_REPROCESSING]-(m_setPipeInfo[2308]):skip REPROCESSING_3AA_OUTPUT setNodeInfo, setFormat(0, 0)
+03-01 17:34:39.054  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_3AA_REPROCESSING]-(setupPipe[198]):setupPipe() is succeed, Pipe(203), prepare(0)
+03-01 17:34:39.054  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_LME_SRC_IMAGE_REPROCESSING]-(setupPipe[146]):set new sensorIds
+03-01 17:34:39.054  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_LME_SRC_IMAGE_REPROCESSING]-(m_setInput[2247]): setInput(sensorIds : 16848129) [src nodeNum : 121][nodeNums : 196][otf : 0][leader : 1][reprocessing : 1][unique sensorId : 1]
+03-01 17:34:39.054  1272 20988 I ExynosCameraNode: [CAM(1)][LME_SRC_IMAGE_REPROCESSING]-(setInput[348]):sensorId(16848130) is set as LVN stream leader
+03-01 17:34:39.055  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_LME_SRC_IMAGE_REPROCESSING]-(m_setInput[2247]): setInput(sensorIds : 16867344) [src nodeNum : 196][nodeNums : 291][otf : 1][leader : 0][reprocessing : 1][unique sensorId : 1]
+03-01 17:34:39.055  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_LME_SRC_IMAGE_REPROCESSING]-(m_setInput[2247]): setInput(sensorIds : 16867344) [src nodeNum : 196][nodeNums : 290][otf : 1][leader : 0][reprocessing : 1][unique sensorId : 1]
+03-01 17:34:39.055  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_LME_SRC_IMAGE_REPROCESSING]-(m_setNodeInfo[2479]):set pipeInfos on LME_SRC_IMAGE_REPROCESSING, setFormat(2016, 1512) and reqBuffers(64), yuvRange(0) pixelSize(6) pixelCompInfo(0)
+03-01 17:34:39.055  1272 20988 I ExynosCameraNode: [CAM(1)][LME_SRC_IMAGE_REPROCESSING]-(setSize[580]):w (2016) h (1512)
+03-01 17:34:39.055  1272 20988 I ExynosCameraNode: [CAM(1)][LME_SRC_IMAGE_REPROCESSING]-(setColorFormat[525]):fmt.pix_mp.flags (6) (6 , 0)
+03-01 17:34:39.055  1272 20988 I ExynosCameraNodeVendor: [CAM(1)][LME_SRC_IMAGE_REPROCESSING]-(m_setFmt[262]):[nodeNum:196] [fd:103] [type:10], [2016 x 1512], [format:541669465:Y 8 I  ], [pixelSizeIdx:6], [yuvRange:7]
+03-01 17:34:39.056  1272 20987 I ExynosCameraBufferManagerVendor: [CAM(1)][CAPTURE_CB_BUF]-(m_defaultAlloc[725]):duration time (    3 msec) alloc=1, total=1, type=3, size=11985408, batchSize=1, reserved count=1, cache => 3 
+03-01 17:34:39.056  1272 20987 I ExynosCameraBufferManagerVendor: [CAM(1)][CAPTURE_CB_BUF]-(alloc[1126]):Allocate the buffer succeeded (m_allocatedBufCount=1, m_reqBufCount=1, m_allowedMaxBufCount=8) --- dumpBufferInfo ---
+03-01 17:34:39.056  1272 20987 I ExynosCameraBufferManagerVendor: DEBUG:duration time(    4 msec):(alloc)
+03-01 17:34:39.056  1272 20987 I ExynosCameraBufferManagerVendor: [CAM(-1)][]-(m_defaultAlloc[539]):SYNC_FORCE_CACHED_RESERVED
+03-01 17:34:39.058  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_LME_SRC_IMAGE_REPROCESSING]-(m_setNodeInfo[2479]):set pipeInfos on LME_SW_DST_REPROCESSING, setFormat(128, 96) and reqBuffers(64), yuvRange(0) pixelSize(6) pixelCompInfo(0)
+03-01 17:34:39.058  1272 20988 I ExynosCameraNode: [CAM(1)][LME_SW_DST_REPROCESSING]-(setSize[580]):w (128) h (96)
+03-01 17:34:39.058  1272 20988 I ExynosCameraNode: [CAM(1)][LME_SW_DST_REPROCESSING]-(setColorFormat[525]):fmt.pix_mp.flags (6) (6 , 0)
+03-01 17:34:39.058  1272 20988 I ExynosCameraNodeVendor: [CAM(1)][LME_SW_DST_REPROCESSING]-(m_setFmt[262]):[nodeNum:291] [fd:-1] [type:9], [128 x 96], [format:541669465:Y 8 I  ], [pixelSizeIdx:6], [yuvRange:7]
+03-01 17:34:39.058  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_LME_SRC_IMAGE_REPROCESSING]-(m_setNodeInfo[2479]):set pipeInfos on LME_DST_ME_REPROCESSING, setFormat(624, 312) and reqBuffers(64), yuvRange(0) pixelSize(6) pixelCompInfo(0)
+03-01 17:34:39.058  1272 20988 I ExynosCameraNode: [CAM(1)][LME_DST_ME_REPROCESSING]-(setSize[580]):w (624) h (312)
+03-01 17:34:39.058  1272 20988 I ExynosCameraNode: [CAM(1)][LME_DST_ME_REPROCESSING]-(setColorFormat[525]):fmt.pix_mp.flags (6) (6 , 0)
+03-01 17:34:39.058  1272 20988 I ExynosCameraNodeVendor: [CAM(1)][LME_DST_ME_REPROCESSING]-(m_setFmt[262]):[nodeNum:290] [fd:-1] [type:9], [624 x 312], [format:541669465:Y 8 I  ], [pixelSizeIdx:6], [yuvRange:7]
+03-01 17:34:39.058  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_LME_SRC_IMAGE_REPROCESSING]-(setupPipe[198]):setupPipe() is succeed, Pipe(238), prepare(0)
+03-01 17:34:39.058  1272 20988 I ExynosCameraMCPipe: [CAM(1)][PIPE_ISP_REPROCESSING]-(setShreadNode[957]):m_node[23]=fd(-1) and m_node[21]=fd(-1) is shared
+03-01 17:34:39.058  1272 20988 I ExynosCameraMCPipe: [CAM(1)][PIPE_ISP_REPROCESSING]-(setShreadNode[957]):m_node[24]=fd(-1) and m_node[22]=fd(-1) is shared
+03-01 17:34:39.058  1272 20988 I ExynosCameraPipeHandler: [CAM(1)][MCSC Reorder Handler]-(setInputFrameQ[109]):
+03-01 17:34:39.058  1272 20988 I ExynosCameraPipeHandler: [CAM(1)][MCSC Reorder Handler]-(setOutputFrameQ[116]):
+03-01 17:34:39.058  1272 20988 I ExynosCameraPipeHandler: [CAM(1)][MCSC Reorder Handler]-(setFrameDoneQ[123]):
+03-01 17:34:39.058  1272 20988 I ExynosCameraPipeHandler: [CAM(1)][MCSC Reorder Handler]-(setPerframeIndex[102]):perframeIndex(0)
+03-01 17:34:39.058  1272 20988 I ExynosCameraPipeHandler: [CAM(1)][MCSC Reorder Handler]-(setBufferSupplier[94]):
+03-01 17:34:39.059  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_ISP_REPROCESSING]-(setupPipe[146]):set new sensorIds
+03-01 17:34:39.059  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_ISP_REPROCESSING]-(m_setInput[2247]): setInput(sensorIds : 16891392) [src nodeNum : 290][nodeNums : 130][otf : 0][leader : 0][reprocessing : 1][unique sensorId : 1]
+03-01 17:34:39.059  1272 20987 I ExynosCameraBufferManagerVendor: [CAM(1)][YUV_CAP_BUF]-(m_defaultAlloc[725]):duration time (    3 msec) alloc=1, total=1, type=5, size=11985408, batchSize=1, reserved count=1, cache => 3 
+03-01 17:34:39.059  1272 20987 I ExynosCameraBufferManagerVendor: [CAM(1)][YUV_CAP_BUF]-(alloc[1126]):Allocate the buffer succeeded (m_allocatedBufCount=1, m_reqBufCount=1, m_allowedMaxBufCount=7) --- dumpBufferInfo ---
+03-01 17:34:39.059  1272 20987 I ExynosCameraBufferManagerVendor: DEBUG:duration time(    3 msec):(alloc)
+03-01 17:34:39.059  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_ISP_REPROCESSING]-(m_setInput[2247]): setInput(sensorIds : 16850448) [src nodeNum : 130][nodeNums : 266][otf : 1][leader : 0][reprocessing : 1][unique sensorId : 1]
+03-01 17:34:39.059  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_ISP_REPROCESSING]-(m_setInput[2247]): setInput(sensorIds : 16850448) [src nodeNum : 130][nodeNums : 263][otf : 1][leader : 0][reprocessing : 1][unique sensorId : 1]
+03-01 17:34:39.059  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_ISP_REPROCESSING]-(m_setInput[2247]): setInput(sensorIds : 16850448) [src nodeNum : 130][nodeNums : 270][otf : 1][leader : 0][reprocessing : 1][unique sensorId : 1]
+03-01 17:34:39.059  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_ISP_REPROCESSING]-(m_setInput[2247]): setInput(sensorIds : 16850448) [src nodeNum : 130][nodeNums : 135][otf : 1][leader : 0][reprocessing : 1][unique sensorId : 1]
+03-01 17:34:39.059  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_ISP_REPROCESSING]-(m_setInput[2247]): setInput(sensorIds : 16850448) [src nodeNum : 130][nodeNums : 269][otf : 1][leader : 0][reprocessing : 1][unique sensorId : 1]
+03-01 17:34:39.059  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_ISP_REPROCESSING]-(m_setInput[2247]): setInput(sensorIds : 16858128) [src nodeNum : 160][nodeNums : 170][otf : 1][leader : 0][reprocessing : 1][unique sensorId : 1]
+03-01 17:34:39.059  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_ISP_REPROCESSING]-(m_setInput[2247]): setInput(sensorIds : 16858128) [src nodeNum : 160][nodeNums : 171][otf : 1][leader : 0][reprocessing : 1][unique sensorId : 1]
+03-01 17:34:39.059  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_ISP_REPROCESSING]-(m_setInput[2247]): setInput(sensorIds : 16858128) [src nodeNum : 160][nodeNums : 172][otf : 1][leader : 0][reprocessing : 1][unique sensorId : 1]
+03-01 17:34:39.059  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_ISP_REPROCESSING]-(m_setInput[2247]): setInput(sensorIds : 16850448) [src nodeNum : 130][nodeNums : 133][otf : 1][leader : 0][reprocessing : 1][unique sensorId : 1]
+03-01 17:34:39.059  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_ISP_REPROCESSING]-(m_setInput[2247]): setInput(sensorIds : 16850448) [src nodeNum : 130][nodeNums : 268][otf : 1][leader : 0][reprocessing : 1][unique sensorId : 1]
+03-01 17:34:39.059  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_ISP_REPROCESSING]-(m_setInput[2247]): setInput(sensorIds : 16850448) [src nodeNum : 130][nodeNums : 272][otf : 1][leader : 0][reprocessing : 1][unique sensorId : 1]
+03-01 17:34:39.059  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_ISP_REPROCESSING]-(m_setInput[2247]): setInput(sensorIds : 16850448) [src nodeNum : 130][nodeNums : 160][otf : 1][leader : 0][reprocessing : 1][unique sensorId : 1]
+03-01 17:34:39.061  1272 20987 I ExynosCameraBufferManagerVendor: [CAM(1)][MCFP_RE_BAYER_BUF]-(m_defaultAlloc[725]):duration time (    2 msec) alloc=1, total=1, type=3, size=13003776, batchSize=1, reserved count=1, cache => 2 
+03-01 17:34:39.061  1272 20987 I ExynosCameraBufferManagerVendor: [CAM(1)][MCFP_RE_BAYER_BUF]-(alloc[1126]):Allocate the buffer succeeded (m_allocatedBufCount=1, m_reqBufCount=1, m_allowedMaxBufCount=2) --- dumpBufferInfo ---
+03-01 17:34:39.061  1272 20987 I ExynosCameraBufferManagerVendor: DEBUG:duration time(    2 msec):(alloc)
+03-01 17:34:39.062  1272 20987 I ExynosCameraBufferManagerVendor: [CAM(1)][MERTA_DST_BUF]-(m_defaultAlloc[725]):duration time (    0 msec) alloc=7, total=7, type=1, size=65536, batchSize=1, reserved count=0, cache => 0 0 0 0 0 0 0 
+03-01 17:34:39.062  1272 20987 I ExynosCameraBufferManagerVendor: [CAM(1)][MERTA_DST_BUF]-(alloc[1126]):Allocate the buffer succeeded (m_allocatedBufCount=7, m_reqBufCount=7, m_allowedMaxBufCount=7) --- dumpBufferInfo ---
+03-01 17:34:39.062  1272 20987 I ExynosCameraBufferManagerVendor: DEBUG:duration time(    1 msec):(alloc)
+03-01 17:34:39.063  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_ISP_REPROCESSING]-(m_setNodeInfo[2479]):set pipeInfos on REPROCESSING_ISP_OUTPUT, setFormat(3264, 2448) and reqBuffers(64), yuvRange(0) pixelSize(5) pixelCompInfo(0)
+03-01 17:34:39.063  1272 20988 I ExynosCameraNode: [CAM(1)][REPROCESSING_ISP_OUTPUT]-(setSize[580]):w (3264) h (2448)
+03-01 17:34:39.063  1272 20988 I ExynosCameraNode: [CAM(1)][REPROCESSING_ISP_OUTPUT]-(setColorFormat[525]):fmt.pix_mp.flags (5) (5 , 0)
+03-01 17:34:39.063  1272 20988 I ExynosCameraNodeVendor: [CAM(1)][REPROCESSING_ISP_OUTPUT]-(m_setFmt[262]):[nodeNum:130] [fd:98] [type:10], [3264 x 2448], [format:1128481392:p B C C], [pixelSizeIdx:5], [yuvRange:7]
+03-01 17:34:39.066  1272 20987 I ExynosCameraBufferManagerVendor: [CAM(1)][ME_RE_BUF]-(m_defaultAlloc[725]):duration time (    1 msec) alloc=7, total=7, type=2, size=194688, batchSize=1, reserved count=7, non-cache => 0 1 0 0 0 0 0 
+03-01 17:34:39.066  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_ISP_REPROCESSING]-(m_setNodeInfo[2479]):set pipeInfos on REPROCESSING_ISP_DRC_GRID, setFormat(1024, 256) and reqBuffers(64), yuvRange(0) pixelSize(0) pixelCompInfo(0)
+03-01 17:34:39.066  1272 20988 I ExynosCameraNode: [CAM(1)][REPROCESSING_ISP_DRC_GRID]-(setSize[580]):w (1024) h (256)
+03-01 17:34:39.066  1272 20987 I ExynosCameraBufferManagerVendor: [CAM(1)][ME_RE_BUF]-(alloc[1126]):Allocate the buffer succeeded (m_allocatedBufCount=7, m_reqBufCount=7, m_allowedMaxBufCount=7) --- dumpBufferInfo ---
+03-01 17:34:39.066  1272 20987 I ExynosCameraBufferManagerVendor: DEBUG:duration time(    4 msec):(alloc)
+03-01 17:34:39.066  1272 20988 I ExynosCameraNode: [CAM(1)][REPROCESSING_ISP_DRC_GRID]-(setColorFormat[525]):fmt.pix_mp.flags (0) (0 , 0)
+03-01 17:34:39.066  1272 20987 I ExynosCameraVendorCapture: [CAM(1)][Front_0]-(m_setPostBufferThreadFunc[15699]):[CAMSYSKPI] X
+03-01 17:34:39.066  1272 20987 I ExynosCameraVendorCapture: DEBUG:duration time(   14 msec):(m_setPostBufferThreadFunc)
+03-01 17:34:39.066  1272 20988 W ExynosCameraNode: [CAM(1)][REPROCESSING_ISP_DRC_GRID]-(setFormat[415]):name(REPROCESSING_ISP_DRC_GRID) fd -1, bytesperline(0) < width(1024), height(256)
+03-01 17:34:39.066  1272 20988 I ExynosCameraNodeVendor: [CAM(1)][REPROCESSING_ISP_DRC_GRID]-(m_setFmt[262]):[nodeNum:266] [fd:-1] [type:9], [1024 x 256], [format:1497715271:G R E Y], [pixelSizeIdx:0], [yuvRange:7]
+03-01 17:34:39.066  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_ISP_REPROCESSING]-(m_setNodeInfo[2479]):set pipeInfos on ISP_LME_REPROCESSING, setFormat(128, 96) and reqBuffers(13), yuvRange(0) pixelSize(6) pixelCompInfo(0)
+03-01 17:34:39.066  1272 20988 I ExynosCameraNode: [CAM(1)][ISP_LME_REPROCESSING]-(setSize[580]):w (128) h (96)
+03-01 17:34:39.066  1272 20988 I ExynosCameraNode: [CAM(1)][ISP_LME_REPROCESSING]-(setColorFormat[525]):fmt.pix_mp.flags (6) (6 , 0)
+03-01 17:34:39.066  1272 20988 I ExynosCameraNodeVendor: [CAM(1)][ISP_LME_REPROCESSING]-(m_setFmt[262]):[nodeNum:263] [fd:-1] [type:9], [128 x 96], [format:541669465:Y 8 I  ], [pixelSizeIdx:6], [yuvRange:7]
+03-01 17:34:39.066  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_ISP_REPROCESSING]-(m_setPipeInfo[2308]):skip REPROCESSING_ISP_SVHIST setNodeInfo, setFormat(0, 0)
+03-01 17:34:39.066  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_ISP_REPROCESSING]-(m_setNodeInfo[2479]):set pipeInfos on MCFP_SRC_PREV_IMG_REPROCESSING, setFormat(3264, 2448) and reqBuffers(13), yuvRange(0) pixelSize(5) pixelCompInfo(0)
+03-01 17:34:39.066  1272 20988 I ExynosCameraNode: [CAM(1)][MCFP_SRC_PREV_IMG_REPROCESSING]-(setSize[580]):w (3264) h (2448)
+03-01 17:34:39.066  1272 20988 I ExynosCameraNode: [CAM(1)][MCFP_SRC_PREV_IMG_REPROCESSING]-(setColorFormat[525]):fmt.pix_mp.flags (5) (5 , 0)
+03-01 17:34:39.066  1272 20988 I ExynosCameraNodeVendor: [CAM(1)][MCFP_SRC_PREV_IMG_REPROCESSING]-(m_setFmt[262]):[nodeNum:135] [fd:-1] [type:9], [3264 x 2448], [format:1128481392:p B C C], [pixelSizeIdx:5], [yuvRange:7]
+03-01 17:34:39.066  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_ISP_REPROCESSING]-(m_setPipeInfo[2308]):skip REPROCESSING_ISP_DRC_GAIN setNodeInfo, setFormat(0, 0)
+03-01 17:34:39.066  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_ISP_REPROCESSING]-(m_setNodeInfo[2479]):set pipeInfos on REPROCESSING_MCSC_CAPTURE_YUV_0, setFormat(144, 108) and reqBuffers(64), yuvRange(0) pixelSize(0) pixelCompInfo(0)
+03-01 17:34:39.066  1272 20988 I ExynosCameraNode: [CAM(1)][REPROCESSING_MCSC_CAPTURE_YUV_0]-(setSize[580]):w (144) h (108)
+03-01 17:34:39.066  1272 20988 I ExynosCameraNode: [CAM(1)][REPROCESSING_MCSC_CAPTURE_YUV_0]-(setColorFormat[525]):fmt.pix_mp.flags (0) (0 , 0)
+03-01 17:34:39.066  1272 20988 W ExynosCameraNode: [CAM(1)][REPROCESSING_MCSC_CAPTURE_YUV_0]-(setFormat[415]):name(REPROCESSING_MCSC_CAPTURE_YUV_0) fd -1, bytesperline(0) < width(144), height(108)
+03-01 17:34:39.066  1272 20988 I ExynosCameraNodeVendor: [CAM(1)][REPROCESSING_MCSC_CAPTURE_YUV_0]-(m_setFmt[262]):[nodeNum:170] [fd:-1] [type:9], [144 x 108], [format:825382478:N V 2 1], [pixelSizeIdx:0], [yuvRange:7]
+03-01 17:34:39.066  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_ISP_REPROCESSING]-(m_setPipeInfo[2280]):node(REPROCESSING_MCSC_CAPTURE_YUV_1)->setNodeInfo skipped, shared node ret(0)
+03-01 17:34:39.066  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_ISP_REPROCESSING]-(m_setPipeInfo[2280]):node(REPROCESSING_MCSC_CAPTURE_YUV_2)->setNodeInfo skipped, shared node ret(0)
+03-01 17:34:39.066  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_ISP_REPROCESSING]-(m_setNodeInfo[2479]):set pipeInfos on REPROCESSING_MCSC_CAPTURE_MAIN, setFormat(144, 108) and reqBuffers(64), yuvRange(0) pixelSize(0) pixelCompInfo(0)
+03-01 17:34:39.066  1272 20988 I ExynosCameraNode: [CAM(1)][REPROCESSING_MCSC_CAPTURE_MAIN]-(setSize[580]):w (144) h (108)
+03-01 17:34:39.066  1272 20988 I ExynosCameraNode: [CAM(1)][REPROCESSING_MCSC_CAPTURE_MAIN]-(setColorFormat[525]):fmt.pix_mp.flags (0) (0 , 0)
+03-01 17:34:39.066  1272 20988 W ExynosCameraNode: [CAM(1)][REPROCESSING_MCSC_CAPTURE_MAIN]-(setFormat[415]):name(REPROCESSING_MCSC_CAPTURE_MAIN) fd -1, bytesperline(0) < width(144), height(108)
+03-01 17:34:39.066  1272 20988 I ExynosCameraNodeVendor: [CAM(1)][REPROCESSING_MCSC_CAPTURE_MAIN]-(m_setFmt[262]):[nodeNum:171] [fd:-1] [type:9], [144 x 108], [format:825382478:N V 2 1], [pixelSizeIdx:0], [yuvRange:7]
+03-01 17:34:39.066  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_ISP_REPROCESSING]-(m_setPipeInfo[2384]):m_node[24]: pipeId(219), outputPortId(0), YUV_RANGE(0)
+03-01 17:34:39.066  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_ISP_REPROCESSING]-(m_setNodeInfo[2479]):set pipeInfos on REPROCESSING_MCSC_CAPTURE_THUMBNAIL, setFormat(144, 108) and reqBuffers(64), yuvRange(0) pixelSize(0) pixelCompInfo(0)
+03-01 17:34:39.067  1272 20988 I ExynosCameraNode: [CAM(1)][REPROCESSING_MCSC_CAPTURE_THUMBNAIL]-(setSize[580]):w (144) h (108)
+03-01 17:34:39.067  1272 20988 I ExynosCameraNode: [CAM(1)][REPROCESSING_MCSC_CAPTURE_THUMBNAIL]-(setColorFormat[525]):fmt.pix_mp.flags (0) (0 , 0)
+03-01 17:34:39.067  1272 20988 W ExynosCameraNode: [CAM(1)][REPROCESSING_MCSC_CAPTURE_THUMBNAIL]-(setFormat[415]):name(REPROCESSING_MCSC_CAPTURE_THUMBNAIL) fd -1, bytesperline(0) < width(144), height(108)
+03-01 17:34:39.067  1272 20988 I ExynosCameraNodeVendor: [CAM(1)][REPROCESSING_MCSC_CAPTURE_THUMBNAIL]-(m_setFmt[262]):[nodeNum:172] [fd:-1] [type:9], [144 x 108], [format:825382478:N V 2 1], [pixelSizeIdx:0], [yuvRange:7]
+03-01 17:34:39.067  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_ISP_REPROCESSING]-(m_setNodeInfo[2479]):set pipeInfos on MCFP_DST_IMG_REPROCESSING, setFormat(3264, 2448) and reqBuffers(13), yuvRange(0) pixelSize(5) pixelCompInfo(0)
+03-01 17:34:39.067  1272 20988 I ExynosCameraNode: [CAM(1)][MCFP_DST_IMG_REPROCESSING]-(setSize[580]):w (3264) h (2448)
+03-01 17:34:39.067  1272 20988 I ExynosCameraNode: [CAM(1)][MCFP_DST_IMG_REPROCESSING]-(setColorFormat[525]):fmt.pix_mp.flags (5) (5 , 0)
+03-01 17:34:39.067  1272 20988 I ExynosCameraNodeVendor: [CAM(1)][MCFP_DST_IMG_REPROCESSING]-(m_setFmt[262]):[nodeNum:133] [fd:-1] [type:9], [3264 x 2448], [format:1128481392:p B C C], [pixelSizeIdx:5], [yuvRange:7]
+03-01 17:34:39.067  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_ISP_REPROCESSING]-(m_setPipeInfo[2308]):skip REPROCESSING_ISP_NRDS setNodeInfo, setFormat(0, 0)
+03-01 17:34:39.067  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_ISP_REPROCESSING]-(m_setPipeInfo[2308]):skip REPROCESSING_ISP_NOISE setNodeInfo, setFormat(0, 0)
+03-01 17:34:39.067  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_ISP_REPROCESSING]-(m_setPipeInfo[2308]):skip REPROCESSING_MCSC_OUTPUT setNodeInfo, setFormat(0, 0)
+03-01 17:34:39.067  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_ISP_REPROCESSING]-(setupPipe[198]):setupPipe() is succeed, Pipe(209), prepare(0)
+03-01 17:34:39.067  1272 20988 I ExynosCameraPipePlugIn: [CAM(1)][PIPE_MERTA_REPROCESSING]-(setupPipe[165]):
+03-01 17:34:39.067  1272 20988 I ExynosCameraPlugInConverter: [CAM(1)][ConverterMERTA]-(setup[96]):pipeId(246)
+03-01 17:34:39.067  1272 20988 I ExynosCameraPlugInConverter: [CAM(1)][ConverterMERTA]-(setup[110]):done, pipeId(246)
+03-01 17:34:39.067  1272 20988 I ExynosCameraPlugInConverter: [CAM(1)][ConverterMERTA]-(setup[96]):pipeId(246)
+03-01 17:34:39.067  1272 20988 I ExynosCameraPlugInConverter: [CAM(1)][ConverterMERTA]-(setup[110]):done, pipeId(246)
+03-01 17:34:39.067  1272 20988 I ExynosCameraPipePlugIn: [CAM(1)][PIPE_LMESW_REPROCESSING]-(setupPipe[165]):
+03-01 17:34:39.067  1272 20988 I ExynosCameraPlugInConverter: [CAM(1)][ConverterLME]-(setup[96]):pipeId(245)
+03-01 17:34:39.067  1272 20988 I ExynosCameraPlugInConverterSWLME: [CAM(1)][ConverterLME]-(m_setup[55]):PLUGIN_LMESW_SENSOR_TYPE 128
+03-01 17:34:39.067  1272 20988 I ExynosCameraPlugInConverter: [CAM(1)][ConverterLME]-(setup[110]):done, pipeId(245)
+03-01 17:34:39.067  1272 20988 I ExynosCameraPlugInlibSWLME: [CAM(1)][libSWLME_PLUGIN]-(m_setup[88]):
+03-01 17:34:39.067  1272 20988 I libSWLME: libSWLME_CORE Constructor (COMMITID : 4323845)
+03-01 17:34:39.067  1272 20988 I libSWLME: libSWLME_CORE::createlibSWLME
+03-01 17:34:39.067  1272 20988 I libSWLME: lmecpu_init()
+03-01 17:34:39.067  1272 20988 I liblmecpu: LMECPUCore Constructor (COMMITID : ba058d0)
+03-01 17:34:39.068  1272 20988 I liblmecpu: Maximum size: (510 x 383)
+03-01 17:34:39.068  1272 20988 I liblmecpu: WorkingMode: STILL
+03-01 17:34:39.068  1272 20988 I liblmecpu: TuningParameter::init(M33/IMX355)
+03-01 17:34:39.068  1272 20988 I liblmecpu: [/vendor/firmware/lmecpu_IMX355.json] fileSize=828
+03-01 17:34:39.069  1272 20988 I liblmecpu: Updated Date : 2021/08/17 10:16:00
+03-01 17:34:39.069  1272 20988 I ExynosCameraPlugInConverter: [CAM(1)][ConverterLME]-(setup[96]):pipeId(245)
+03-01 17:34:39.069  1272 20988 I ExynosCameraPlugInConverter: [CAM(1)][ConverterLME]-(setup[110]):done, pipeId(245)
+03-01 17:34:39.069  1272 20988 I ExynosCameraPipePlugIn: [CAM(1)][PIPE_CNR_REPROCESSING]-(setupPipe[165]):
+03-01 17:34:39.069  1272 20988 I ExynosCameraPlugInConverter: [CAM(1)][ConverterCNR]-(setup[96]):pipeId(250)
+03-01 17:34:39.069  1272 20988 I ExynosCameraPlugInConverter: [CAM(1)][ConverterCNR]-(setup[110]):done, pipeId(250)
+03-01 17:34:39.069  1272 20988 I swcnr   : SWCNR SETUP 0x7c35b829c8
+03-01 17:34:39.069  1272 20988 I ExynosCameraPlugInConverter: [CAM(1)][ConverterCNR]-(setup[96]):pipeId(250)
+03-01 17:34:39.069  1272 20988 I ExynosCameraPlugInConverter: [CAM(1)][ConverterCNR]-(setup[110]):done, pipeId(250)
+03-01 17:34:39.069  1272 20988 I ExynosCameraVendorCapture: [CAM(1)][Front_0]-(m_startReprocessingFrameFactory[19377]):- IN -
+03-01 17:34:39.069  1272 20988 I ExynosCameraFrameReprocessingFactorySec: [CAM(1)][Front_0]-(startPipes[1496]):
+03-01 17:34:39.069  1272 20988 I ExynosCameraPipePlugIn: [CAM(1)][PIPE_MERTA_REPROCESSING]-(start[115]):
+03-01 17:34:39.069  1272 20988 I ExynosCameraSWPipe: [CAM(1)][PIPE_MERTA_REPROCESSING]-(start[26]):
+03-01 17:34:39.069  1272 20988 I MERTA_Plugin: INFO(start[93]):start[93]
+03-01 17:34:39.069  1272 20988 I ExynosCameraPipePlugIn: [CAM(1)][PIPE_LMESW_REPROCESSING]-(start[115]):
+03-01 17:34:39.069  1272 20988 I ExynosCameraSWPipe: [CAM(1)][PIPE_LMESW_REPROCESSING]-(start[26]):
+03-01 17:34:39.069  1272 20988 I ExynosCameraPlugInlibSWLME: [CAM(1)][libSWLME_PLUGIN]-(m_start[142]):
+03-01 17:34:39.070  1272 20988 I ExynosCameraPipePlugIn: [CAM(1)][PIPE_CNR_REPROCESSING]-(start[115]):
+03-01 17:34:39.070  1272 20988 I ExynosCameraSWPipe: [CAM(1)][PIPE_CNR_REPROCESSING]-(start[26]):
+03-01 17:34:39.070  1272 20988 I swcnr   : SWCNR START
+03-01 17:34:39.070  1272 20988 I ExynosCameraMCPipe: [CAM(1)][PIPE_ISP_REPROCESSING]-(m_startNode[1355]):
+03-01 17:34:39.070  1272 20988 I ExynosCameraNode: [CAM(1)][REPROCESSING_ISP_NOISE]-(start[443]):skip node start. request buffer is zero
+03-01 17:34:39.070  1272 20988 I ExynosCameraNode: [CAM(1)][REPROCESSING_ISP_NRDS]-(start[443]):skip node start. request buffer is zero
+03-01 17:34:39.070  1272 20988 I ExynosCameraMCPipe: [CAM(1)][PIPE_ISP_REPROCESSING]-(m_startNode[1364]):node(REPROCESSING_MCSC_CAPTURE_YUV_2)->start skipped, shared node ret(0)
+03-01 17:34:39.070  1272 20988 I ExynosCameraMCPipe: [CAM(1)][PIPE_ISP_REPROCESSING]-(m_startNode[1364]):node(REPROCESSING_MCSC_CAPTURE_YUV_1)->start skipped, shared node ret(0)
+03-01 17:34:39.070  1272 20988 I ExynosCameraNode: [CAM(1)][REPROCESSING_ISP_DRC_GAIN]-(start[443]):skip node start. request buffer is zero
+03-01 17:34:39.070  1272 20988 I ExynosCameraNode: [CAM(1)][REPROCESSING_ISP_SVHIST]-(start[443]):skip node start. request buffer is zero
+03-01 17:34:39.071  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_ISP_REPROCESSING]-(start[233]):start() is succeed, Pipe(209)
+03-01 17:34:39.071  1272 20988 I ExynosCameraMCPipe: [CAM(1)][PIPE_LME_SRC_IMAGE_REPROCESSING]-(m_startNode[1355]):
+03-01 17:34:39.071  1272 20988 I ExynosCameraMCPipeSec: [CAM(1)][PIPE_LME_SRC_IMAGE_REPROCESSING]-(start[233]):start() is succeed, Pipe(238)
+03-01 17:34:39.071  1272 20988 I ExynosCameraPipePPSec: [CAM(1)][PIPE_PP_UNI_REPROCESSING]-(start[365]):
+03-01 17:34:39.071  1272 20988 I ExynosCameraPipePPSec: [CAM(1)][PIPE_PP_UNI_REPROCESSING2]-(start[365]):
+03-01 17:34:39.071  1272 20988 I ExynosCameraPipePPSec: [CAM(1)][PIPE_PP_UNI_RAW_REPROCESSING]-(start[365]):
+03-01 17:34:39.071  1272 20988 I ExynosCameraFrameReprocessingFactorySec: [CAM(1)][Front_0]-(startPipes[1675]):Starting Reprocessing [SCC>ISP] Success!
+03-01 17:34:39.071  1272 20988 I ExynosCameraVendorCapture: DEBUG:duration time(    2 msec):(m_startReprocessingFrameFactory)
+03-01 17:34:39.150  1272 20989 E ExynosCameraSec: [CAM(1)][Front_0]-(handleBayerBuffer[12735]):[F1 FT7 CAM1 B-1 ORBB0]Handling bayer buffer failed. Bayer buffer will be put. isServiceBayer 0, bufDirection 1 pipeId 6 ret -38
+03-01 17:34:39.150  1272 20989 I ExynosCameraFrameFactoryBaseVendor: [CAM(1)][Front_0]-(startThread[186]):pipeId=45
+03-01 17:34:39.150  1272 20989 I ExynosCameraSWPipe: [CAM(1)][PIPE_NFD]-(startThread[83]):startThread is succeed (45)
+03-01 17:34:39.151  1438 20937 W HidlCamera3-Device: processBatchCaptureRequests: sehProcessCaptureRequest_5_0 return time exceeds 100000us (121828)us
+03-01 17:34:39.151  1272 20997 I vpl     : INFO(execute[284]):[Input][F0][MetaF8]m_vplHandle(0xb400007e822ba3e0), curFPS(30), frameSize(640x480), roi(320x240), channelSize(307200)
+03-01 17:34:39.152  1272 20978 I EDEN    : [Exynos][EDEN][v1.6.23][RT::EdenRuntime] ExecuteReq:358: (+) modelId=127202199, mode=0 req=0xb400007e421ef200
+03-01 17:34:39.152  1272 20981 E ExynosCameraBufferManagerVendor: [CAM(1)][FLITE_BUF]-(getBuffer[317]):m_allocatedBufCount equals zero
+03-01 17:34:39.152  1272 20981 E ExynosCameraBufferSupplierVendor: [CAM(1)][BufferSupplier]-(getBuffer[185]):[FLITE_BUF][P7 T0 B-1 A0x7c365915a8]Failed to getBuffer. ret -38
+03-01 17:34:39.152  1272 20981 E ExynosCameraMCPipeSec: [CAM(1)][PIPE_3AA]-(m_putBuffer[855]):[F6 FT2][3AA_CAPTURE]Failed to getBuffer from BufferSupplier. ret -38 FrameQ_size (0, 3) size(4)
+03-01 17:34:39.152  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printEntity[77]): FrameCount(6(0)), type(2), state(0), request(5), complete(0)
+03-01 17:34:39.152  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req1] sibling id(6), state(2)
+03-01 17:34:39.152  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req1] sibling id(47), state(1)
+03-01 17:34:39.152  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req1] sibling id(12), state(1)
+03-01 17:34:39.152  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req1] sibling id(45), state(1)
+03-01 17:34:39.152  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req1] sibling id(87), state(1)
+03-01 17:34:39.152  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req0] sibling id(33), state(1)
+03-01 17:34:39.152  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req0] sibling id(34), state(1)
+03-01 17:34:39.152  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(m_dumpStatusForResultUpdate[1955]):[F6 T2]ResultType  0 PipeId   6 ResultUpdateStatus  1
+03-01 17:34:39.152  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(m_dumpStatusForResultUpdate[1955]):[F6 T2]ResultType  1 PipeId  12 ResultUpdateStatus  1
+03-01 17:34:39.152  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(m_dumpStatusForResultUpdate[1955]):[F6 T2]ResultType  2 PipeId  12 ResultUpdateStatus  1
+03-01 17:34:39.152  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[111]): FrameCount(6(0)), type(2), state(0), request(5), complete(0)
+03-01 17:34:39.152  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:1] sibling id(6), state(2)
+03-01 17:34:39.152  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:1] sibling id(47), state(1)
+03-01 17:34:39.153  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:1] sibling id(12), state(1)
+03-01 17:34:39.153  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:1] sibling id(45), state(1)
+03-01 17:34:39.153  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:1] sibling id(87), state(1)
+03-01 17:34:39.153  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:0] sibling id(33), state(1)
+03-01 17:34:39.153  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:0] sibling id(34), state(1)
+03-01 17:34:39.153  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(88)'s request is true
+03-01 17:34:39.153  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(87)'s request is true
+03-01 17:34:39.153  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(75)'s request is true
+03-01 17:34:39.153  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(73)'s request is true
+03-01 17:34:39.153  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(51)'s request is true
+03-01 17:34:39.153  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(50)'s request is true
+03-01 17:34:39.153  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(49)'s request is true
+03-01 17:34:39.153  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(47)'s request is true
+03-01 17:34:39.153  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(45)'s request is true
+03-01 17:34:39.153  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(19)'s request is true
+03-01 17:34:39.153  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(12)'s request is true
+03-01 17:34:39.153  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(11)'s request is true
+03-01 17:34:39.153  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(9)'s request is true
+03-01 17:34:39.153  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(8)'s request is true
+03-01 17:34:39.153  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(7)'s request is true
+03-01 17:34:39.153  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(6)'s request is true
+03-01 17:34:39.153  1272 20933 I EDEN    : [Exynos][EDEN][v1.6.23][UD::NPU::LINK] _npu_print_execute_log:157: interval[10], link execute req | unique id : [0], fd : [15]
+03-01 17:34:39.158  1272 20934 I EDEN    : [Exynos][EDEN][v1.6.23][UD::NPU::LINK] _npu_print_execute_log:152: interval[10], link polling dqbuf done | unique id : [0], fd : [15]
+03-01 17:34:39.159  1272 20997 I vpl     : INFO(execute[305]):[Result][F0][MetaF8]m_vplHandle(0xb400007e822ba3e0), faceNumber(1)
+03-01 17:34:39.202  1272 20993 W ExynosCameraSec: [CAM(1)][Front_0]-(m_previewStreamMERTAPipeThreadFunc[4883]):wait timeout
+03-01 17:34:39.217  1272 20989 E ExynosCameraSec: [CAM(1)][Front_0]-(handleBayerBuffer[12735]):[F2 FT7 CAM1 B-1 ORBB1]Handling bayer buffer failed. Bayer buffer will be put. isServiceBayer 0, bufDirection 1 pipeId 6 ret -38
+03-01 17:34:39.220  1272 20981 E ExynosCameraBufferManagerVendor: [CAM(1)][FLITE_BUF]-(getBuffer[317]):m_allocatedBufCount equals zero
+03-01 17:34:39.220  1272 20981 E ExynosCameraBufferSupplierVendor: [CAM(1)][BufferSupplier]-(getBuffer[185]):[FLITE_BUF][P7 T0 B-1 A0x7c365915a8]Failed to getBuffer. ret -38
+03-01 17:34:39.220  1272 20981 E ExynosCameraMCPipeSec: [CAM(1)][PIPE_3AA]-(m_putBuffer[855]):[F7 FT2][3AA_CAPTURE]Failed to getBuffer from BufferSupplier. ret -38 FrameQ_size (0, 3) size(4)
+03-01 17:34:39.220  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printEntity[77]): FrameCount(7(0)), type(2), state(0), request(5), complete(0)
+03-01 17:34:39.220  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req1] sibling id(6), state(2)
+03-01 17:34:39.220  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req1] sibling id(47), state(1)
+03-01 17:34:39.220  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req1] sibling id(12), state(1)
+03-01 17:34:39.220  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req1] sibling id(45), state(1)
+03-01 17:34:39.220  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req1] sibling id(87), state(1)
+03-01 17:34:39.220  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req0] sibling id(33), state(1)
+03-01 17:34:39.220  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req0] sibling id(34), state(1)
+03-01 17:34:39.220  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(m_dumpStatusForResultUpdate[1955]):[F7 T2]ResultType  0 PipeId   6 ResultUpdateStatus  1
+03-01 17:34:39.220  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(m_dumpStatusForResultUpdate[1955]):[F7 T2]ResultType  1 PipeId  12 ResultUpdateStatus  1
+03-01 17:34:39.220  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(m_dumpStatusForResultUpdate[1955]):[F7 T2]ResultType  2 PipeId  12 ResultUpdateStatus  1
+03-01 17:34:39.220  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[111]): FrameCount(7(0)), type(2), state(0), request(5), complete(0)
+03-01 17:34:39.220  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:1] sibling id(6), state(2)
+03-01 17:34:39.220  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:1] sibling id(47), state(1)
+03-01 17:34:39.220  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:1] sibling id(12), state(1)
+03-01 17:34:39.220  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:1] sibling id(45), state(1)
+03-01 17:34:39.220  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:1] sibling id(87), state(1)
+03-01 17:34:39.220  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:0] sibling id(33), state(1)
+03-01 17:34:39.220  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:0] sibling id(34), state(1)
+03-01 17:34:39.220  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(88)'s request is true
+03-01 17:34:39.220  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(87)'s request is true
+03-01 17:34:39.221  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(75)'s request is true
+03-01 17:34:39.221  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(73)'s request is true
+03-01 17:34:39.221  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(51)'s request is true
+03-01 17:34:39.221  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(50)'s request is true
+03-01 17:34:39.221  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(49)'s request is true
+03-01 17:34:39.221  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(47)'s request is true
+03-01 17:34:39.221  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(45)'s request is true
+03-01 17:34:39.221  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(19)'s request is true
+03-01 17:34:39.221  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(12)'s request is true
+03-01 17:34:39.221  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(11)'s request is true
+03-01 17:34:39.221  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(9)'s request is true
+03-01 17:34:39.221  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(8)'s request is true
+03-01 17:34:39.221  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(7)'s request is true
+03-01 17:34:39.221  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(6)'s request is true
+03-01 17:34:39.257  1272 20996 I ExynosCameraSec: [CAM(1)][Front_0]-(m_monitorThreadFunc[6731]):@FIMC_IS_SYNC 1098
+03-01 17:34:39.257  1272 20996 I ExynosCameraMCPipe: [CAM(1)][PIPE_3AA]-(syncLog[1019]):
+03-01 17:34:39.284  1272 20989 E ExynosCameraSec: [CAM(1)][Front_0]-(handleBayerBuffer[12735]):[F3 FT7 CAM1 B-1 ORBB2]Handling bayer buffer failed. Bayer buffer will be put. isServiceBayer 0, bufDirection 1 pipeId 6 ret -38
+03-01 17:34:39.286  1272 20981 E ExynosCameraBufferManagerVendor: [CAM(1)][FLITE_BUF]-(getBuffer[317]):m_allocatedBufCount equals zero
+03-01 17:34:39.286  1272 20981 E ExynosCameraBufferSupplierVendor: [CAM(1)][BufferSupplier]-(getBuffer[185]):[FLITE_BUF][P7 T0 B-1 A0x7c365915a8]Failed to getBuffer. ret -38
+03-01 17:34:39.286  1272 20981 E ExynosCameraMCPipeSec: [CAM(1)][PIPE_3AA]-(m_putBuffer[855]):[F8 FT2][3AA_CAPTURE]Failed to getBuffer from BufferSupplier. ret -38 FrameQ_size (0, 3) size(4)
+03-01 17:34:39.286  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printEntity[77]): FrameCount(8(0)), type(2), state(0), request(5), complete(0)
+03-01 17:34:39.286  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req1] sibling id(6), state(2)
+03-01 17:34:39.286  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req1] sibling id(47), state(1)
+03-01 17:34:39.286  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req1] sibling id(12), state(1)
+03-01 17:34:39.286  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req1] sibling id(45), state(1)
+03-01 17:34:39.286  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req1] sibling id(87), state(1)
+03-01 17:34:39.286  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req0] sibling id(33), state(1)
+03-01 17:34:39.286  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printEntity[86]):[Req0] sibling id(34), state(1)
+03-01 17:34:39.286  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(m_dumpStatusForResultUpdate[1955]):[F8 T2]ResultType  0 PipeId   6 ResultUpdateStatus  1
+03-01 17:34:39.286  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(m_dumpStatusForResultUpdate[1955]):[F8 T2]ResultType  1 PipeId  12 ResultUpdateStatus  1
+03-01 17:34:39.286  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(m_dumpStatusForResultUpdate[1955]):[F8 T2]ResultType  2 PipeId  12 ResultUpdateStatus  1
+03-01 17:34:39.286  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[111]): FrameCount(8(0)), type(2), state(0), request(5), complete(0)
+03-01 17:34:39.286  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:1] sibling id(6), state(2)
+03-01 17:34:39.286  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:1] sibling id(47), state(1)
+03-01 17:34:39.286  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:1] sibling id(12), state(1)
+03-01 17:34:39.286  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:1] sibling id(45), state(1)
+03-01 17:34:39.286  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:1] sibling id(87), state(1)
+03-01 17:34:39.286  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:0] sibling id(33), state(1)
+03-01 17:34:39.286  1272 20981 I ExynosCameraFrame: [CAM(1)][]-(printNotDoneEntity[121]):[Req:0] sibling id(34), state(1)
+03-01 17:34:39.286  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(88)'s request is true
+03-01 17:34:39.286  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(87)'s request is true
+03-01 17:34:39.286  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(75)'s request is true
+03-01 17:34:39.286  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(73)'s request is true
+03-01 17:34:39.286  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(51)'s request is true
+03-01 17:34:39.286  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(50)'s request is true
+03-01 17:34:39.286  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(49)'s request is true
+03-01 17:34:39.286  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(47)'s request is true
+03-01 17:34:39.286  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(45)'s request is true
+03-01 17:34:39.286  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(19)'s request is true
+03-01 17:34:39.286  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(12)'s request is true
+03-01 17:34:39.286  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(11)'s request is true
+03-01 17:34:39.287  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(9)'s request is true
+03-01 17:34:39.287  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(8)'s request is true
+03-01 17:34:39.287  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(7)'s request is true
+03-01 17:34:39.287  1272 20981 I ExynosCameraFrameVendor: [CAM(1)][]-(dump[162]):pipeId(6)'s request is true

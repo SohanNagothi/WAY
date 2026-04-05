@@ -1,0 +1,192 @@
+<resources>
+    <string name="app_name">WAY</string>
+
+
+    <!-- Bottom Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_contacts">Contacts</string>
+    <string name="nav_history">History</string>
+    <string name="nav_self_defense">Self Defense</string>
+
+    <!-- Toolbar -->
+    <string name="settings">Settings</string>
+
+    <!-- Splash -->
+    <string name="splash_tagline">Walk Alert for You</string>
+
+    <!-- Auth -->
+    <string name="login_title">Welcome Back</string>
+    <string name="login_subtitle">Sign in to continue your safety journey</string>
+    <string name="signup_title">Create Account</string>
+    <string name="signup_subtitle">Join WAY and stay safe on every walk</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="name_hint">Full Name</string>
+    <string name="btn_sign_in">Sign In</string>
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="btn_google_sign_in">Continue with Google</string>
+    <string name="no_account">Don\'t have an account? Sign Up</string>
+    <string name="have_account">Already have an account? Sign In</string>
+    <string name="or_divider">\u0020\u0020or\u0020\u0020</string>
+
+    <!-- Onboarding / Setup Wizard -->
+    <string name="setup_title">Let\'s Set Up Your Safety</string>
+    <string name="setup_subtitle">Complete these steps to get started</string>
+    <string name="setup_step_contacts">Add Emergency Contacts</string>
+    <string name="setup_step_locations">Add Frequent Locations</string>
+    <string name="setup_step_code">Set Emergency Code</string>
+    <string name="setup_step_permissions">Grant Permissions</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_back">Back</string>
+    <string name="btn_finish">Finish Setup</string>
+
+    <!-- Setup Wizard - Contacts Step -->
+    <string name="setup_contacts_description">Add at least one emergency contact who will be notified if something goes wrong.</string>
+    <string name="setup_contact_2_hint">Contact 2 Name (optional)</string>
+
+    <!-- Setup Wizard - Locations Step -->
+    <string name="setup_locations_description">Save your frequent destinations so you can start walks faster.</string>
+    <string name="setup_locations_coming_soon">Location search requires Google Places API</string>
+    <string name="setup_locations_skip_hint">You can skip this step and add locations later in Settings.</string>
+
+    <!-- Setup Wizard - Emergency Code Step -->
+    <string name="setup_code_description">Create a 4-digit code that proves you are safe during a safety check.</string>
+    <string name="setup_code_hint">4-digit PIN</string>
+    <string name="setup_confirm_code_hint">Confirm PIN</string>
+    <string name="setup_code_warning">⚠ Remember this code! You\'ll need it to dismiss safety alerts.</string>
+
+    <!-- Setup Wizard - Permissions Step -->
+    <string name="setup_permissions_description">WAY needs these permissions to keep you safe during walks.</string>
+    <string name="setup_perm_location">Location Access</string>
+    <string name="setup_perm_location_desc">Track distance to destination</string>
+    <string name="setup_perm_activity">Activity Recognition</string>
+    <string name="setup_perm_activity_desc">Detect movement and inactivity</string>
+    <string name="setup_perm_notifications">Notifications</string>
+    <string name="setup_perm_notifications_desc">Show safety alerts and walk status</string>
+    <string name="setup_grant_all">Grant All Permissions</string>
+    <string name="setup_perm_granted">Granted</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_welcome">Hi, %1$s!</string>
+    <string name="dashboard_start_walk">START\nWALK</string>
+    <string name="dashboard_total_walks">Total Walks</string>
+    <string name="dashboard_total_alerts">Alerts Triggered</string>
+    <string name="dashboard_last_walk">Last Walk</string>
+    <string name="dashboard_no_walks">No walks yet. Start your first walk!</string>
+    <string name="dashboard_safety_status">Safety Status</string>
+    <string name="dashboard_all_systems_ready">All systems ready</string>
+
+    <!-- Emergency Contacts -->
+    <string name="contacts_title">Emergency Contacts</string>
+    <string name="contacts_subtitle">People who will be alerted in emergencies</string>
+    <string name="contacts_add">Add Contact</string>
+    <string name="contacts_empty">No emergency contacts added yet.</string>
+    <string name="contacts_empty_hint">Tap + to add your first emergency contact</string>
+    <string name="contact_name_hint">Contact Name</string>
+    <string name="contact_phone_hint">Phone Number</string>
+    <string name="contact_priority_hint">Priority</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_delete">Delete</string>
+
+    <!-- Walk History -->
+    <string name="history_title">Walk History</string>
+    <string name="history_subtitle">Your past walking sessions</string>
+    <string name="history_empty">No walk history yet.</string>
+    <string name="history_empty_hint">Start a walk from the Dashboard to begin tracking</string>
+    <string name="history_destination">Destination: %1$s</string>
+    <string name="history_duration">Duration: %1$s</string>
+    <string name="history_alert_triggered">Alert Triggered</string>
+    <string name="history_no_alert">No Alert</string>
+
+    <!-- Self Defense -->
+    <string name="self_defense_title">Self Defense Tips</string>
+    <string name="self_defense_subtitle">Tips and guides to keep you safe</string>
+
+    <!-- Walk Session -->
+    <string name="walk_title">Walk Session</string>
+    <string name="walk_select_destination">Select Destination</string>
+    <string name="walk_tap_to_select">Tap to select</string>
+    <string name="walk_distance_to_dest">Distance: %1$s</string>
+    <string name="walk_elapsed_time">Time: %1$s</string>
+    <string name="walk_btn_sos">SOS</string>
+    <string name="walk_btn_end">End Walk</string>
+    <string name="walk_state_idle">Ready</string>
+    <string name="walk_state_walking">Walking</string>
+    <string name="walk_state_safety_check">Safety Check</string>
+    <string name="walk_state_emergency">EMERGENCY</string>
+
+    <!-- Safety Check -->
+    <string name="safety_check_title">Are you okay?</string>
+    <string name="safety_check_message">Please confirm your safety within %1$d seconds.</string>
+    <string name="safety_check_btn_ok">I AM OKAY</string>
+    <string name="safety_check_enter_code">Enter your emergency code</string>
+    <string name="safety_check_wrong_code">Wrong code. %1$d attempt(s) remaining.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_subtitle">Manage your account and preferences</string>
+    <string name="settings_profile">Edit Profile</string>
+    <string name="settings_emergency_code">Change Emergency Code</string>
+    <string name="settings_locations">Manage Frequent Locations</string>
+    <string name="settings_battery">Battery Optimization</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_system">System default</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_sign_out">Sign Out</string>
+
+    <!-- Theme dialog -->
+    <string name="theme_dialog_title">Choose theme</string>
+
+    <!-- Dashboard extras -->
+    <string name="dashboard_good_morning">Good Morning 👋</string>
+    <string name="dashboard_good_afternoon">Good Afternoon ☀️</string>
+    <string name="dashboard_good_evening">Good Evening 🌙</string>
+    <string name="dashboard_active">Active</string>
+    <string name="dashboard_zero">0</string>
+    <string name="dashboard_last_walk_summary">%1$s • %2$dmin</string>
+    <string name="dashboard_settings_quick">Open settings</string>
+
+    <!-- Settings extras -->
+    <string name="settings_section_account">ACCOUNT</string>
+    <string name="settings_section_safety">SAFETY</string>
+    <string name="settings_section_appearance">APPEARANCE</string>
+    <string name="settings_app_version">WAY v1.0.0</string>
+
+    <!-- Walk extras -->
+    <string name="walk_distance_label">Distance</string>
+    <string name="walk_time_label">Time</string>
+    <string name="walk_distance_placeholder">\u2014</string>
+    <string name="walk_time_placeholder">00:00</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_safety_status">Safety status</string>
+    <string name="cd_total_walks">Total walks</string>
+    <string name="cd_total_alerts">Total alerts</string>
+    <string name="cd_last_walk">Last walk</string>
+    <string name="cd_view_details">View details</string>
+    <string name="cd_destination">Destination</string>
+    <string name="cd_search_destination">Search destination</string>
+    <string name="cd_distance">Distance</string>
+    <string name="cd_time">Time</string>
+    <string name="cd_profile">Profile</string>
+    <string name="cd_emergency_code">Emergency Code</string>
+    <string name="cd_locations">Locations</string>
+    <string name="cd_battery">Battery</string>
+    <string name="cd_theme">Theme</string>
+    <string name="cd_navigate">Go</string>
+    <string name="cd_change">Change</string>
+    <string name="cd_no_contacts">No contacts</string>
+    <string name="cd_no_history">No history</string>
+
+    <!-- Placeholder -->
+    <string name="placeholder_coming_soon">Coming Soon</string>
+
+    <!-- Self Defense video controls -->
+    <string name="video_play">Open video</string>
+    <string name="video_tap_to_play">Watch on YouTube</string>
+    <string name="video_open_fullscreen">Open in YouTube</string>
+    <string name="video_close">Close</string>
+</resources>

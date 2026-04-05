@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingHorizontal="24dp"
+    android:paddingTop="24dp">
+
+    <ImageView
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:src="@drawable/ic_lock"
+        app:tint="@color/way_primary"
+        android:contentDescription="@string/setup_step_code" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/setup_step_code"
+        style="@style/WAY.Text.TitleLarge"
+        android:gravity="center"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/setup_code_description"
+        style="@style/WAY.Text.BodyMedium"
+        android:gravity="center"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="28dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilCode"
+        style="@style/WAY.TextInput"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:startIconDrawable="@drawable/ic_lock"
+        app:startIconTint="@color/way_on_surface_variant">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/setup_code_hint"
+            android:inputType="numberPassword"
+            android:maxLength="4"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:letterSpacing="0.4" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilConfirmCode"
+        style="@style/WAY.TextInput"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:startIconDrawable="@drawable/ic_check"
+        app:startIconTint="@color/way_on_surface_variant">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etConfirmCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/setup_confirm_code_hint"
+            android:inputType="numberPassword"
+            android:maxLength="4"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:letterSpacing="0.4" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/setup_code_warning"
+        style="@style/WAY.Text.LabelSmall"
+        android:gravity="center"
+        android:textColor="@color/way_warning_amber"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
+

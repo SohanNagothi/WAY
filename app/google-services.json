@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "249809651846",
+    "project_id": "way-out-db637",
+    "storage_bucket": "way-out-db637.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249809651846:android:d3b26545ec82a2411fe907",
+        "android_client_info": {
+          "package_name": "com.example.way"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "249809651846-qeddg0712nc5jp5dd6dn5fji3b732896.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.way",
+            "certificate_hash": "98e251249de1acf661f7529d405a2198cc5d01cb"
+          }
+        },
+        {
+          "client_id": "249809651846-l504c61oh2abloggi7gjd3m4v6nhhedi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiPGV58fSblRB7x3geriAdRsDEWNpztTE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "249809651846-l504c61oh2abloggi7gjd3m4v6nhhedi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

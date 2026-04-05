@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="?android:colorBackground">
+
+    <!-- Warning icon -->
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_shield"
+        app:tint="@color/way_warning_amber"
+        android:contentDescription="Safety check" />
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Are you okay?"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/way_on_surface"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A safety trigger was detected.\nPlease confirm you are safe."
+        android:textSize="15sp"
+        android:textColor="@color/way_on_surface_variant"
+        android:gravity="center"
+        android:layout_marginTop="8dp" />
+
+    <!-- Countdown timer -->
+    <TextView
+        android:id="@+id/tvCountdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="30"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:textColor="@color/way_emergency_red"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="seconds remaining"
+        android:textSize="13sp"
+        android:textColor="@color/way_on_surface_variant" />
+
+    <!-- I AM OKAY button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnImOkay"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="I AM OKAY"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/way_safe_green"
+        android:textColor="@color/white"
+        app:cornerRadius="16dp"
+        android:layout_marginTop="32dp" />
+
+    <!-- Emergency code input (hidden until I AM OKAY pressed) -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilCode"
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:visibility="gone"
+        app:boxCornerRadiusTopStart="14dp"
+        app:boxCornerRadiusTopEnd="14dp"
+        app:boxCornerRadiusBottomStart="14dp"
+        app:boxCornerRadiusBottomEnd="14dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your emergency code"
+            android:inputType="numberPassword"
+            android:maxLines="1"
+            android:gravity="center"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Confirm code button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnConfirmCode"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Confirm"
+        app:backgroundTint="@color/way_primary"
+        android:textColor="@color/way_on_primary"
+        app:cornerRadius="14dp"
+        android:layout_marginTop="8dp"
+        android:visibility="gone" />
+
+    <!-- Attempts remaining -->
+    <TextView
+        android:id="@+id/tvAttempts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textColor="@color/way_error"
+        android:layout_marginTop="8dp"
+        android:visibility="gone" />
+
+</LinearLayout>
+

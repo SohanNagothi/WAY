@@ -1,0 +1,202 @@
+--------- beginning of main
+03-01 17:19:10.387  1658  2533 W CAE     : setCAProperty(ContextAwareService.java:509) - [setProperty 01] Mutex is locked for SLOCATION_RUNNER
+03-01 17:19:10.387  1658  2019 I CAE     : parse(SensorHubParserProvider.java:188) - buffer size = 10
+03-01 17:19:10.387  1658  2019 I CAE     : parse(SensorHubParserProvider.java:199) - 1, 1, 55, 0, 5, 2, 17, 0, 58, -104,
+03-01 17:19:10.387  1658  2533 I CAE     : setPropertyValue(SLocationRunner.java:116) - SLocationRunner setProperty header : 16, len : 16
+03-01 17:19:10.387  1658  2019 I CAE     : parse(SLocationRunner.java:88) - SLocationRunner parse start : 3
+03-01 17:19:10.387  1658  2019 D CAE     : display(ContextProvider.java:375) - ================= SLOCATION_RUNNER =================
+03-01 17:19:10.387  1658  2019 I CAE     : display(ContextProvider.java:391) - ExtraDataArray=[1, 1, 55, 0, 5, 2, 17, 0, 58, -104]
+03-01 17:19:10.387  1658  2021 D SensorService: setSContextDataLocked ints length 6 , byte length 19
+03-01 17:19:10.387  1658  2021 D SensorService: setSContextDataLocked 103717c1
+03-01 17:19:10.388  1658  2019 I CAE     : parse(SLocationRunner.java:96) - SLocationRunner parse end:10
+03-01 17:19:10.388  1245  1245 I SensorsHub: SContextSensor::injecet_sensor_data
+03-01 17:19:10.388  1245  1245 D SensorsHub: c1 17 37 10 3a 98 0b 79 b1 90 2b 98 d4 f0 00 0c  
+03-01 17:19:10.388  1245  1245 D SensorsHub: e6 61 01  
+03-01 17:19:10.388  1245  1245 D SensorsHub: inject_scontext_data: New ssp_data_injection_fd(27)
+03-01 17:19:10.388  1245  1245 D SensorsHub: SContext Data Injection return 64
+03-01 17:19:10.388  1658  2016 D SemContextService: Service.updateContext() : service = SLocation Core
+03-01 17:19:10.389  1245  1286 I SensorsHub: context 10 0 9 1,1,55,0,5,2,16,0,58,152, 447582353509078
+03-01 17:19:10.389  1658  2533 W CAE     : setCAProperty(ContextAwareService.java:515) - [setProperty 02] Mutex is unlocked for SLOCATION_RUNNER
+03-01 17:19:10.389  1658  2533 D SemContextService: unlock : changeParameters
+03-01 17:19:10.389  1658  2533 D SemContextManager:   .changeParameters : listener = Z.i@7c82390, service=SLocation Core
+03-01 17:19:10.389  1658  1658 D SemContextManager: onSemContextChanged() : event = SLocation Core
+03-01 17:19:10.389  1658  1658 D SLocation: SensorHubWrapper - SemContextChanged type = 47, packet received
+03-01 17:19:10.390  1658  2533 D SLocation: GeofenceCoreManager - received Extra Data from core, len : 5
+03-01 17:19:10.390  1658  2533 D SLocation: GeofenceCoreManager - handleCommandCallback - UNKNOWN_CALLBACK 2 SUCCESS
+03-01 17:19:10.390  1658  2533 D SLocation: CommonCoreManager - received Extra Data from core, len : 5
+03-01 17:19:10.390  1658  2533 D SLocation: CommonCoreManager - handleCommandCallback - FUNC_TYPE : SET_LOCATION  ERROR_CODE : ERROR_NONE
+03-01 17:19:10.390  1658  2533 D SLocation: GeofenceCoreManager - received Extra Data from core, len : 5
+03-01 17:19:10.390  1658  2533 D SLocation: GeofenceCoreManager - handleCommandCallback - GEOFENCE_REMOVE SUCCESS
+03-01 17:19:10.390  1658  2533 I SLocation: SHardwareManager - handleRemoveCallback : GEOFENCE_SUCCESS, id = 15000
+03-01 17:19:10.390  1658  2533 D SLocation: CommonCoreManager - received Extra Data from core, len : 5
+03-01 17:19:10.391  1658  2021 D SensorService: setSContextDataLocked ints length 3 , byte length 5
+03-01 17:19:10.391  1658  2021 D SensorService: setSContextDataLocked 310b0ec1
+03-01 17:19:10.391  1245  1245 I SensorsHub: SContextSensor::injecet_sensor_data
+03-01 17:19:10.392  1245  1245 D SensorsHub: c1 0e 0b 31 0a  
+03-01 17:19:10.392  1245  1245 D SensorsHub: inject_scontext_data: New ssp_data_injection_fd(27)
+03-01 17:19:10.392  1245  1245 D SensorsHub: SContext Data Injection return 64
+03-01 17:19:10.393  1658  2019 D CAE     : onGetSensorHubData(SensorHubParserProvider.java:92) - onGetSensorHubData Event [event buffer len :10], AP_SLEEP
+03-01 17:19:10.393  1658  2019 I CAE     : parse(SensorHubParserProvider.java:188) - buffer size = 10
+03-01 17:19:10.393  1658  2019 I CAE     : parse(SensorHubParserProvider.java:199) - 1, 1, 55, 0, 5, 2, 16, 0, 58, -104,
+03-01 17:19:10.394  1658  2019 I CAE     : parse(SLocationRunner.java:88) - SLocationRunner parse start : 3
+03-01 17:19:10.394  1658  2019 D CAE     : display(ContextProvider.java:375) - ================= SLOCATION_RUNNER =================
+03-01 17:19:10.394  1658  2019 I CAE     : display(ContextProvider.java:391) - ExtraDataArray=[1, 1, 55, 0, 5, 2, 16, 0, 58, -104]
+03-01 17:19:10.394  1658  2019 I CAE     : parse(SLocationRunner.java:96) - SLocationRunner parse end:10
+03-01 17:19:10.395  1658  2016 D SemContextService: Service.updateContext() : service = SLocation Core
+03-01 17:19:10.395  1658  1658 D SemContextManager: onSemContextChanged() : event = SLocation Core
+03-01 17:19:10.395  1658  1658 D SLocation: SensorHubWrapper - SemContextChanged type = 47, packet received
+03-01 17:19:10.396  1658  2533 D SLocation: GeofenceCoreManager - received Extra Data from core, len : 5
+03-01 17:19:10.396  1658  2533 D SLocation: GeofenceCoreManager - handleCommandCallback - GEOFENCE_ADD SUCCESS
+03-01 17:19:10.396  1658  2533 I SLocation: SHardwareManager - handleAddCallback : GEOFENCE_SUCCESS id = 15000
+03-01 17:19:10.396  1658  2533 D SLocation: CommonCoreManager - received Extra Data from core, len : 5
+03-01 17:19:10.397  1245  1286 I SensorsHub: context 36 0 35 1,1,55,0,31,5,7,2,0,0,0,9,2,137,23,248,7,2,0,0,0,0,2,137,66,240,2,4,0,0,0,0,2,137,66,240, 447582361456808
+03-01 17:19:10.399  1658  2021 D SensorService: setSContextDataLocked ints length 3 , byte length 5
+03-01 17:19:10.399  1658  2021 D SensorService: setSContextDataLocked 310b0ec1
+03-01 17:19:10.399  1245  1245 I SensorsHub: SContextSensor::injecet_sensor_data
+03-01 17:19:10.399  1245  1245 D SensorsHub: c1 0e 0b 31 0a  
+03-01 17:19:10.399  1245  1245 D SensorsHub: inject_scontext_data: New ssp_data_injection_fd(27)
+03-01 17:19:10.399  1245  1245 D SensorsHub: SContext Data Injection return 64
+03-01 17:19:10.400  1658  2019 D CAE     : onGetSensorHubData(SensorHubParserProvider.java:92) - onGetSensorHubData Event [event buffer len :36], AP_SLEEP
+03-01 17:19:10.400  1658  2019 I CAE     : parse(SensorHubParserProvider.java:188) - buffer size = 36
+03-01 17:19:10.401  1658  2019 I CAE     : parse(SensorHubParserProvider.java:199) - 1, 1, 55, 0, 31, 5, 7, 2, 0, 0, 0, 9, 2, -119, 23, -8, 7, 2, 0, 0, 0, 0, 2, -119, 66, -16, 2, 4, 0, 0, 0, 0, 2, -119, 66, -16,
+03-01 17:19:10.401  1658  2019 I CAE     : parse(SLocationRunner.java:88) - SLocationRunner parse start : 3
+03-01 17:19:10.401  1658  2019 D CAE     : display(ContextProvider.java:375) - ================= SLOCATION_RUNNER =================
+03-01 17:19:10.401  1658  2019 I CAE     : display(ContextProvider.java:391) - ExtraDataArray=[1, 1, 55, 0, 31, 5, 7, 2, 0, 0, 0, 9, 2, -119, 23, -8, 7, 2, 0, 0, 0, 0, 2, -119, 66, -16, 2, 4, 0, 0, 0, 0, 2, -119, 66, -16]
+03-01 17:19:10.402  1658  2019 I CAE     : parse(SLocationRunner.java:96) - SLocationRunner parse end:36
+03-01 17:19:10.402  1658  2016 D SemContextService: Service.updateContext() : service = SLocation Core
+03-01 17:19:10.402  1658  1658 D SemContextManager: onSemContextChanged() : event = SLocation Core
+03-01 17:19:10.403  1658  1658 D SLocation: SensorHubWrapper - SemContextChanged type = 47, packet received
+03-01 17:19:10.403  1658  2533 D SLocation: GeofenceCoreManager - received Extra Data from core, len : 31
+03-01 17:19:10.403  1658  2533 D SLocation: CommonCoreManager - received Extra Data from core, len : 31
+03-01 17:19:10.797  1309  1332 E HeatmapThread: ECT Thread time in milliseconds: 1772365750
+03-01 17:19:10.798  1309  1332 D HeatmapThread: !@ batteryplugType : 0
+03-01 17:19:10.798  1309  1332 D HeatmapThread: !@ batteryLevel : 0  batteryTemperature : 0 
+03-01 17:19:10.798  1309  1332 D HeatmapThread: !@ Heatmap currtime: 29539429
+03-01 17:19:10.798  1309  1332 D HeatmapThread: !@ Heatmap prevtime: 29539419
+03-01 17:19:10.798  1309  1332 D HeatmapThread: !@ Heatmap plugstarttime: 35791394
+03-01 17:19:10.799  1309  1332 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29531970
+03-01 17:19:10.799  1309  1332 E HeatmapThread: !@Could not open '/efs/FactoryApp/bsoh', errno = 13
+03-01 17:19:10.799  1309  1332 E HeatmapThread: !@ CAM Could not access BSOH EFS
+03-01 17:19:10.800  1309  1332 E HeatmapThread: !@ CAM New BSOH: 0
+03-01 17:19:10.816  1535  2150 I bauth_FPBAuthService: pcf : 0x1012, 0 ,1 ,0 ,1 ,1 ,3, 16.0.0.3
+03-01 17:19:10.816  1535  2150 I bauth_FPBAuthService: thread id : 1, preenroll_flag : 0, nd cnt : 1, cso : 2, et : 0
+03-01 17:19:10.816  1535  2150 I bauth_FPBAuthService: FPBAuthService, 11451
+03-01 17:19:10.869  1658  2533 D SLocation: WifiBssidMonitor - requestRefresh
+03-01 17:19:11.142  1658  2106 D SemWifiTrafficPoller: getSoftApTotalTrafficInBytes:1108289176
+03-01 17:19:11.189  1263 22295 W C2BqBuffer: last successful dequeue was 2298585306 us ago, 28688 consecutive failures
+03-01 17:19:11.525  1263 26049 W C2BqBuffer: last successful dequeue was 1994543509 us ago, 25995 consecutive failures
+--------- beginning of system
+03-01 17:19:11.628  1658  1710 E Watchdog: !@Sync: 9312 heap(MB): 145 / 190 FD: 1723 [2026-03-01 17:19:11.627]
+03-01 17:19:11.689  1296  1447 I EDEN    : [Exynos][EDEN][v1.6.23][SERVICE] processAliveMointorMain:253: Try to check pid=(1272)...
+03-01 17:19:11.786   657   657 D io_stats: !@   8,0 r 34075084 622686459 w 12746085 186184800 d 3901776 182391312 f 0 1084166 iot 27238692 0 th 0 0 0 pt 0 inp 0 0 279619.937
+03-01 17:19:11.797  1309  1332 E HeatmapThread: ECT Thread time in milliseconds: 1772365751
+03-01 17:19:11.797  1309  1332 D HeatmapThread: !@ batteryplugType : 0
+03-01 17:19:11.798  1309  1332 D HeatmapThread: !@ batteryLevel : 0  batteryTemperature : 0 
+03-01 17:19:11.798  1309  1332 D HeatmapThread: !@ Heatmap currtime: 29539429
+03-01 17:19:11.798  1309  1332 D HeatmapThread: !@ Heatmap prevtime: 29539419
+03-01 17:19:11.798  1309  1332 D HeatmapThread: !@ Heatmap plugstarttime: 35791394
+03-01 17:19:11.798  1309  1332 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29531970
+03-01 17:19:11.798  1309  1332 E HeatmapThread: !@Could not open '/efs/FactoryApp/bsoh', errno = 13
+03-01 17:19:11.799  1309  1332 E HeatmapThread: !@ CAM Could not access BSOH EFS
+03-01 17:19:11.799  1309  1332 E HeatmapThread: !@ CAM New BSOH: 0
+03-01 17:19:11.816  1535  2150 I bauth_FPBAuthService: pcf : 0x1012, 0 ,1 ,0 ,1 ,1 ,3, 16.0.0.3
+03-01 17:19:11.817  1535  2150 I bauth_FPBAuthService: thread id : 1, preenroll_flag : 0, nd cnt : 1, cso : 2, et : 0
+03-01 17:19:11.817  1535  2150 I bauth_FPBAuthService: FPBAuthService, 11451
+03-01 17:19:11.904  1658 22355 D PerProcessNandswap$NandswapHandler: nandswap start for non-activity com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:2(pid 21972) action:14 adj:905 type:1
+03-01 17:19:11.993  1658 22355 D PerProcessNandswap$NandswapHandler: nandswap end for non-activity com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:2(pid 21972) ret:277094264832 adj:905
+03-01 17:19:12.144  1658  2106 D SemWifiTrafficPoller: getSoftApTotalTrafficInBytes:1108289176
+03-01 17:19:12.797  1309  1332 E HeatmapThread: ECT Thread time in milliseconds: 1772365752
+03-01 17:19:12.797  1309  1332 D HeatmapThread: !@ batteryplugType : 0
+03-01 17:19:12.797  1309  1332 D HeatmapThread: !@ batteryLevel : 0  batteryTemperature : 0 
+03-01 17:19:12.797  1309  1332 D HeatmapThread: !@ Heatmap currtime: 29539429
+03-01 17:19:12.797  1309  1332 D HeatmapThread: !@ Heatmap prevtime: 29539419
+03-01 17:19:12.798  1309  1332 D HeatmapThread: !@ Heatmap plugstarttime: 35791394
+03-01 17:19:12.798  1309  1332 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29531970
+03-01 17:19:12.798  1309  1332 E HeatmapThread: !@Could not open '/efs/FactoryApp/bsoh', errno = 13
+03-01 17:19:12.798  1309  1332 E HeatmapThread: !@ CAM Could not access BSOH EFS
+03-01 17:19:12.798  1309  1332 E HeatmapThread: !@ CAM New BSOH: 0
+03-01 17:19:12.817  1535  2150 I bauth_FPBAuthService: pcf : 0x1012, 0 ,1 ,0 ,1 ,1 ,3, 16.0.0.3
+03-01 17:19:12.817  1535  2150 I bauth_FPBAuthService: thread id : 1, preenroll_flag : 0, nd cnt : 1, cso : 2, et : 0
+03-01 17:19:12.818  1535  2150 I bauth_FPBAuthService: FPBAuthService, 11451
+03-01 17:19:12.901  1658  3020 I SemWifiApDataUsage: handleMessage: 14
+03-01 17:19:12.902  1658  3020 I SemWifiApEbpf: DATA_USAGE_STATS_START_POLL,mhs= true,upstream= 2,client size 1
+03-01 17:19:12.904  1658  3020 D SemWifiApEbpf: getWifiApDataUsageForOverAllMhs():  overall data is1108289176
+03-01 17:19:12.904  1658  3020 I SemWifiApEbpf: updating the overall dataUsage , overall =1108289176 , global = {mTotalDataBytes=1108289015,mTotalDataIngressBytes=0,mTotalDataEgressBytes=0,mCellularBytes=1108289015,mCurrentDayAndSimCellularBytes=1108289015}
+03-01 17:19:13.146  1658  2106 D SemWifiTrafficPoller: getSoftApTotalTrafficInBytes:1108289176
+03-01 17:19:13.787   657   657 D io_stats: !@   8,0 r 34075088 622686511 w 12746088 186184816 d 3901776 182391312 f 0 1084166 iot 27238708 0 th 0 0 0 pt 0 inp 0 0 279621.938
+03-01 17:19:13.788   657   657 D io_stats: !@ Read_top(KB): nder.soundbound(7029) 420 loop48(3161) 256 system_server(1658) 52
+03-01 17:19:13.788   657   657 D io_stats: !@ Write_top(KB): kworker/u16:0(11212) 212 sait.sohservice(7040) 16
+03-01 17:19:13.797  1309  1332 E HeatmapThread: ECT Thread time in milliseconds: 1772365753
+03-01 17:19:13.798  1309  1332 D HeatmapThread: !@ batteryplugType : 0
+03-01 17:19:13.798  1309  1332 D HeatmapThread: !@ batteryLevel : 0  batteryTemperature : 0 
+03-01 17:19:13.798  1309  1332 D HeatmapThread: !@ Heatmap currtime: 29539429
+03-01 17:19:13.798  1309  1332 D HeatmapThread: !@ Heatmap prevtime: 29539419
+03-01 17:19:13.798  1309  1332 D HeatmapThread: !@ Heatmap plugstarttime: 35791394
+03-01 17:19:13.798  1309  1332 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29531970
+03-01 17:19:13.799  1309  1332 E HeatmapThread: !@Could not open '/efs/FactoryApp/bsoh', errno = 13
+03-01 17:19:13.799  1309  1332 E HeatmapThread: !@ CAM Could not access BSOH EFS
+03-01 17:19:13.799  1309  1332 E HeatmapThread: !@ CAM New BSOH: 0
+03-01 17:19:13.818  1535  2150 I bauth_FPBAuthService: pcf : 0x1012, 0 ,1 ,0 ,1 ,1 ,3, 16.0.0.3
+03-01 17:19:13.818  1535  2150 I bauth_FPBAuthService: thread id : 1, preenroll_flag : 0, nd cnt : 1, cso : 2, et : 0
+03-01 17:19:13.818  1535  2150 I bauth_FPBAuthService: FPBAuthService, 11451
+03-01 17:19:14.101  1263 23921 W C2BqBuffer: last successful dequeue was 1133821741 us ago, 18168 consecutive failures
+03-01 17:19:14.147  1658  2106 D SemWifiTrafficPoller: getSoftApTotalTrafficInBytes:1108289176
+03-01 17:19:14.200  4356  5553 I SDHMS:x : SIOP:: AP:441 BAT:362 USB:0 CHG:436 PA:444 WIFI:451 BLK:0 SUBBAT:0 SKIN:394 SKINF:364 SKINB:394 LRP:412 LRP2:394 LRF:376 LRB:412 LRF2:364 LRB2:394 AP2:394 CHG2:386 WIFI2:394 SPK2:348 VAP:459 AVGCUR:303 AVGSYS:0 POWER:1183
+03-01 17:19:14.272  1328  1328 I SurfaceFlinger: SFWD update time=279622423519187
+03-01 17:19:14.797  1309  1332 E HeatmapThread: ECT Thread time in milliseconds: 1772365754
+03-01 17:19:14.797  1309  1332 D HeatmapThread: !@ batteryplugType : 0
+03-01 17:19:14.797  1309  1332 D HeatmapThread: !@ batteryLevel : 0  batteryTemperature : 0 
+03-01 17:19:14.797  1309  1332 D HeatmapThread: !@ Heatmap currtime: 29539429
+03-01 17:19:14.798  1309  1332 D HeatmapThread: !@ Heatmap prevtime: 29539419
+03-01 17:19:14.798  1309  1332 D HeatmapThread: !@ Heatmap plugstarttime: 35791394
+03-01 17:19:14.798  1309  1332 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29531970
+03-01 17:19:14.798  1309  1332 E HeatmapThread: !@Could not open '/efs/FactoryApp/bsoh', errno = 13
+03-01 17:19:14.798  1309  1332 E HeatmapThread: !@ CAM Could not access BSOH EFS
+03-01 17:19:14.798  1309  1332 E HeatmapThread: !@ CAM New BSOH: 0
+03-01 17:19:14.819  1535  2150 I bauth_FPBAuthService: pcf : 0x1012, 0 ,1 ,0 ,1 ,1 ,3, 16.0.0.3
+03-01 17:19:14.819  1535  2150 I bauth_FPBAuthService: thread id : 1, preenroll_flag : 0, nd cnt : 1, cso : 2, et : 0
+03-01 17:19:14.819  1535  2150 I bauth_FPBAuthService: FPBAuthService, 11451
+03-01 17:19:14.979  1243  1243 I android.hardware.health@2.1-service-samsung: updateLrpSysfs: write: 394
+03-01 17:19:15.150  1658  2106 D SemWifiTrafficPoller: getSoftApTotalTrafficInBytes:1108289176
+03-01 17:19:15.322  1263 23903 W C2BqBuffer: last successful dequeue was 2105752111 us ago, 26931 consecutive failures
+03-01 17:19:15.786 24928 25133 E msys    : E[N mns]_OnDiskCacheGetData(632)=>Start post callback cache refresh DNS resolution
+03-01 17:19:15.789   657   657 D io_stats: !@   8,0 r 34075088 622686511 w 12746100 186184908 d 3901776 182391312 f 0 1084166 iot 27238728 0 th 0 0 0 pt 0 inp 0 0 279623.940
+03-01 17:19:15.791  1658  2173 D NetdEventListenerService: DNS Requested by 396, 10301(com.instagram.android), 4(FAIL), isBlocked=true, 0ms
+03-01 17:19:15.797  1309  1332 E HeatmapThread: ECT Thread time in milliseconds: 1772365755
+03-01 17:19:15.797  1309  1332 D HeatmapThread: !@ batteryplugType : 0
+03-01 17:19:15.798  1309  1332 D HeatmapThread: !@ batteryLevel : 0  batteryTemperature : 0 
+03-01 17:19:15.798  1309  1332 D HeatmapThread: !@ Heatmap currtime: 29539429
+03-01 17:19:15.798  1309  1332 D HeatmapThread: !@ Heatmap prevtime: 29539419
+03-01 17:19:15.798  1309  1332 D HeatmapThread: !@ Heatmap plugstarttime: 35791394
+03-01 17:19:15.798  1309  1332 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29531970
+03-01 17:19:15.798  1309  1332 E HeatmapThread: !@Could not open '/efs/FactoryApp/bsoh', errno = 13
+03-01 17:19:15.799  1309  1332 E HeatmapThread: !@ CAM Could not access BSOH EFS
+03-01 17:19:15.799  1309  1332 E HeatmapThread: !@ CAM New BSOH: 0
+03-01 17:19:15.815 24928 25133 E msys    : E[N mns]_LogError(228)=>Failed to resolve using system DNS resolver, getaddrinfo(): No address associated with hostname
+03-01 17:19:15.816 24928 25133 E msys    : E[N mns]_OnDiskCacheGetData(632)=>Start post callback cache refresh DNS resolution
+03-01 17:19:15.819  1535  2150 I bauth_FPBAuthService: pcf : 0x1012, 0 ,1 ,0 ,1 ,1 ,3, 16.0.0.3
+03-01 17:19:15.819  1535  2150 I bauth_FPBAuthService: thread id : 1, preenroll_flag : 0, nd cnt : 1, cso : 2, et : 0
+03-01 17:19:15.819  1535  2150 I bauth_FPBAuthService: FPBAuthService, 11451
+03-01 17:19:15.820  1658  2173 D NetdEventListenerService: DNS Requested by 396, 10301(com.instagram.android), 4(FAIL), isBlocked=true, 0ms
+03-01 17:19:15.820 24928 25133 E msys    : E[N mns]_LogError(228)=>Failed to resolve using system DNS resolver, getaddrinfo(): No address associated with hostname
+03-01 17:19:16.152  1658  2106 D SemWifiTrafficPoller: getSoftApTotalTrafficInBytes:1108312288
+03-01 17:19:16.230  1263 22295 W C2BqBuffer: last successful dequeue was 2303626282 us ago, 28733 consecutive failures
+03-01 17:19:16.567  1263 26049 W C2BqBuffer: last successful dequeue was 1999585139 us ago, 26040 consecutive failures
+03-01 17:19:16.569  2861  4532 I id.app.launcher: Explicit concurrent mark compact GC freed 2066KB AllocSpace bytes, 11(680KB) LOS objects, 66% free, 23MB/71MB, paused 1.052ms,3.458ms total 280.088ms
+03-01 17:19:16.570  1328  1894 I SurfaceFlinger: id=93180 Removed Transition Root: Task=1#93180 (271)
+03-01 17:19:16.571  1328  1894 I SurfaceFlinger: id=93190 Removed Surface(name=Task=4173)/@0x3e330_transition-leash#93190 (271)
+03-01 17:19:16.571  1328  1358 I SurfaceFlinger: id=93189 Removed Transition Root: Task=4173#93189 (271)
+03-01 17:19:16.572  1328  1328 I SurfaceFlinger: destroyed Surface(name=Task=4564)/@0x8971e64_transition-leash#93183
+03-01 17:19:16.572  1328  1328 I SurfaceFlinger: destroyed Surface(name=Task=4173)/@0x3e330_transition-leash#93190
+03-01 17:19:16.572  1328  1328 I SurfaceFlinger: destroyed Transition Root: Task=1#93180
+03-01 17:19:16.572  1328  1328 I SurfaceFlinger: destroyed Surface(name=Task=1)/@0x7406ff7_transition-leash#93182
+03-01 17:19:16.572  1328  1328 I SurfaceFlinger: destroyed Transition Root: Task=4173#93189
+03-01 17:19:16.572  1328  1328 I SurfaceFlinger: destroyed Surface(name=TransientLaunchOverlayToken{8170e3a token=android.os.BinderProxy@b898165})/@0xb2a8ff6_transition-leash#93181
+03-01 17:19:16.575  1328  1328 I Layer   : id=93183 Destroyed Surface(name=Task=4564)/@0x8971e64_transition-leash#93183
+03-01 17:19:16.575  1328  1328 I Layer   : id=93190 Destroyed Surface(name=Task=4173)/@0x3e330_transition-leash#93190
+03-01 17:19:16.575  1328  1328 I Layer   : id=93180 Destroyed Transition Root: Task=1#93180
+03-01 17:19:16.575  1328  1328 I Layer   : id=93182 Destroyed Surface(name=Task=1)/@0x7406ff7_transition-leash#93182
+03-01 17:19:16.575  1328  1328 I Layer   : id=93189 Destroyed Transition Root: Task=4173#93189
+03-01 17:19:16.575  1328  1328 I Layer   : id=93181 Destroyed Surface(name=TransientLaunchOverlayToken{8170e3a token=android.os.BinderProxy@b898165})/@0xb2a8ff6_transition-leash#93181
+03-01 17:19:16.576  1328  1328 E Scheduler: trackPendingFrame: Invalid present fence
+03-01 17:19:16.691  1296  1447 I EDEN    : [Exynos][EDEN][v1.6.23][SERVICE] processAliveMointorMain:253: Try to check pid=(1272)...

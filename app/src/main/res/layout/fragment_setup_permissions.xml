@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingHorizontal="24dp"
+    android:paddingTop="24dp">
+
+    <ImageView
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:src="@drawable/ic_shield_outlined"
+        app:tint="@color/way_primary"
+        android:contentDescription="@string/setup_step_permissions" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/setup_step_permissions"
+        style="@style/WAY.Text.TitleLarge"
+        android:gravity="center"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/setup_permissions_description"
+        style="@style/WAY.Text.BodyMedium"
+        android:gravity="center"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Location Permission -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardLocationPerm"
+        style="@style/WAY.Card.Outlined"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:focusable="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/ic_location"
+                app:tint="@color/way_primary"
+                android:contentDescription="@string/setup_perm_location" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="14dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/setup_perm_location"
+                    style="@style/WAY.Text.BodyLarge" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/setup_perm_location_desc"
+                    style="@style/WAY.Text.LabelSmall" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ivLocationStatus"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_chevron_right"
+                app:tint="@color/way_outline"
+                android:contentDescription="@string/cd_navigate" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Activity Recognition Permission -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardActivityPerm"
+        style="@style/WAY.Card.Outlined"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:focusable="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/ic_walk"
+                app:tint="@color/way_primary"
+                android:contentDescription="@string/setup_perm_activity" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="14dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/setup_perm_activity"
+                    style="@style/WAY.Text.BodyLarge" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/setup_perm_activity_desc"
+                    style="@style/WAY.Text.LabelSmall" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ivActivityStatus"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_chevron_right"
+                app:tint="@color/way_outline"
+                android:contentDescription="@string/cd_navigate" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Notification Permission (Android 13+) -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardNotifPerm"
+        style="@style/WAY.Card.Outlined"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:focusable="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/ic_warning"
+                app:tint="@color/way_primary"
+                android:contentDescription="@string/setup_perm_notifications" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="14dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/setup_perm_notifications"
+                    style="@style/WAY.Text.BodyLarge" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/setup_perm_notifications_desc"
+                    style="@style/WAY.Text.LabelSmall" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ivNotifStatus"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_chevron_right"
+                app:tint="@color/way_outline"
+                android:contentDescription="@string/cd_navigate" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Grant All button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnGrantAll"
+        style="@style/WAY.Button.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="@string/setup_grant_all"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
+

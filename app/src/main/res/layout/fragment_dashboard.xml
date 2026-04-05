@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:colorBackground"
+    android:fillViewport="true"
+    android:clipToPadding="false">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="24dp">
+
+        <ImageButton
+            android:id="@+id/btnSettingsQuick"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/dashboard_settings_quick"
+            android:padding="8dp"
+            android:src="@drawable/ic_settings_gear"
+            app:tint="@color/way_on_surface"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Greeting section -->
+        <TextView
+            android:id="@+id/tvGreetingLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/dashboard_good_morning"
+            style="@style/WAY.Text.BodyMedium"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/btnSettingsQuick" />
+
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/dashboard_welcome"
+            style="@style/WAY.Text.HeadlineMedium"
+            android:textColor="@color/way_on_surface"
+            android:layout_marginTop="2dp"
+            app:layout_constraintTop_toBottomOf="@id/tvGreetingLabel"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/btnSettingsQuick" />
+
+        <!-- Safety Status Card -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardSafetyStatus"
+            style="@style/WAY.Card.Filled"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="@color/way_primary_container"
+            app:layout_constraintTop_toBottomOf="@id/tvWelcome"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_shield_outlined"
+                    app:tint="@color/way_on_primary_container"
+                    android:contentDescription="@string/cd_safety_status" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginStart="14dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dashboard_safety_status"
+                        android:textSize="13sp"
+                        android:fontFamily="sans-serif-medium"
+                        android:textColor="@color/way_on_primary_container" />
+
+                    <TextView
+                        android:id="@+id/tvSafetyStatus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dashboard_all_systems_ready"
+                        android:textSize="15sp"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/way_on_primary_container"
+                        android:alpha="0.8" />
+                </LinearLayout>
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chipStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dashboard_active"
+                    android:textColor="@color/way_on_primary_container"
+                    app:chipBackgroundColor="@android:color/transparent"
+                    app:chipStrokeColor="@color/way_on_primary_container"
+                    app:chipStrokeWidth="1dp"
+                    app:chipMinHeight="28dp"
+                    android:textSize="11sp"
+                    android:clickable="false" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Analytics row -->
+        <LinearLayout
+            android:id="@+id/analyticsContainer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@id/cardSafetyStatus"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <!-- Total Walks card -->
+            <com.google.android.material.card.MaterialCardView
+                style="@style/WAY.Card"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:src="@drawable/ic_walk"
+                        app:tint="@color/way_primary"
+                        android:contentDescription="@string/cd_total_walks" />
+
+                    <TextView
+                        android:id="@+id/tvTotalWalks"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dashboard_zero"
+                        android:textSize="28sp"
+                        android:fontFamily="sans-serif-medium"
+                        android:textColor="@color/way_on_surface"
+                        android:layout_marginTop="8dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dashboard_total_walks"
+                        style="@style/WAY.Text.LabelSmall" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Alerts card -->
+            <com.google.android.material.card.MaterialCardView
+                style="@style/WAY.Card"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:src="@drawable/ic_warning"
+                        app:tint="@color/way_warning_amber"
+                        android:contentDescription="@string/cd_total_alerts" />
+
+                    <TextView
+                        android:id="@+id/tvTotalAlerts"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dashboard_zero"
+                        android:textSize="28sp"
+                        android:fontFamily="sans-serif-medium"
+                        android:textColor="@color/way_on_surface"
+                        android:layout_marginTop="8dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dashboard_total_alerts"
+                        style="@style/WAY.Text.LabelSmall" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+
+        <!-- Last Walk card -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardLastWalk"
+            style="@style/WAY.Card.Outlined"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@id/analyticsContainer"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/ic_timer"
+                    app:tint="@color/way_on_surface_variant"
+                    android:contentDescription="@string/cd_last_walk" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginStart="12dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dashboard_last_walk"
+                        style="@style/WAY.Text.TitleMedium" />
+
+                    <TextView
+                        android:id="@+id/tvLastWalkInfo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dashboard_no_walks"
+                        style="@style/WAY.Text.BodyMedium"
+                        android:layout_marginTop="2dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_chevron_right"
+                    app:tint="@color/way_on_surface_variant"
+                    android:contentDescription="@string/cd_view_details" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- START WALK — hero button with pulsing ring -->
+        <View
+            android:id="@+id/startWalkOuterRing"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:background="@drawable/bg_start_walk_outer_ring"
+            android:alpha="0.4"
+            android:layout_marginTop="28dp"
+            app:layout_constraintTop_toBottomOf="@id/cardLastWalk"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnStartWalk"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:text="@string/dashboard_start_walk"
+            android:textSize="17sp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/white"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            app:cornerRadius="90dp"
+            app:backgroundTint="@color/way_primary"
+            app:icon="@drawable/ic_walk"
+            app:iconGravity="top"
+            app:iconTint="@color/white"
+            app:iconSize="36dp"
+            app:iconPadding="8dp"
+            android:layout_marginTop="28dp"
+            app:layout_constraintTop_toBottomOf="@id/cardLastWalk"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

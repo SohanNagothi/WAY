@@ -1,0 +1,202 @@
+--------- beginning of system
+03-01 17:21:16.541  1658  1714 I ActivityManager: Start proc 15072:com.samsung.sait.sohservice/1000 for service {com.samsung.sait.sohservice/com.samsung.sait.sohservice.service.BatteryService}
+03-01 17:21:16.541  1658  1714 I ActivityManager: ProcessObserver broadcast disabled
+--------- beginning of main
+03-01 17:21:16.563 15072 15072 I sait.sohservice: Using CollectorTypeCMC GC.
+03-01 17:21:16.585  1658  1720 W libprocessgroup: SetCgroup::ExecuteForProcess: failed to open /dev/cpuctl/foreground-boost/cgroup.procs: No such file or directory
+03-01 17:21:16.587  1535  2150 I bauth_FPBAuthService: pcf : 0x1012, 0 ,2 ,0 ,0 ,0 ,2, 16.0.0.3
+03-01 17:21:16.587  1535  2150 I bauth_FPBAuthService: thread id : 2, preenroll_flag : 0, nd cnt : 1, cso : 2, et : 0
+03-01 17:21:16.587  1535  2150 I bauth_FPBAuthService: FPBAuthService, 11451
+03-01 17:21:16.666 15072 15072 I SEP_UNION_SemUnionManager: initializeManagerMapData(1000) context = android.app.ContextImpl@c99dbeb 
+03-01 17:21:16.669 15072 15072 I SEP_UNION_SemUnionManager: getUnionService(semeventdelegator) 
+03-01 17:21:16.670 15072 15072 I SEP_UNION_SemUnionManager: getSemSystemService : semeventdelegator 
+03-01 17:21:16.670 15072 15089 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+03-01 17:21:16.670  1658  2295 D SEP_UNION_SemUnionMainServiceImpl: getSemSystemService - semeventdelegator 
+03-01 17:21:16.672  1658  2295 D SEP_UNION_SemDeviceInfoManagerService: Register intent = android.intent.action.ACTION_POWER_CONNECTED,  package = com.samsung.sait.sohservice, userId = 0, flag = 0, conditions = null 
+03-01 17:21:16.673  1658  2295 D SEP_UNION_SemDeviceInfoManagerService: Same PendingIntent is in com.samsung.sait.sohservice 
+03-01 17:21:16.726  1296  1447 I EDEN    : [Exynos][EDEN][v1.6.23][SERVICE] processAliveMointorMain:253: Try to check pid=(1272)...
+03-01 17:21:16.797  1309  1332 E HeatmapThread: ECT Thread time in milliseconds: 1772365876
+03-01 17:21:16.797  1309  1332 D HeatmapThread: !@ batteryplugType : 0
+03-01 17:21:16.797  1309  1332 D HeatmapThread: !@ batteryLevel : 0  batteryTemperature : 0 
+03-01 17:21:16.797  1309  1332 D HeatmapThread: !@ Heatmap currtime: 29539431
+03-01 17:21:16.797  1309  1332 D HeatmapThread: !@ Heatmap prevtime: 29539419
+03-01 17:21:16.797  1309  1332 D HeatmapThread: !@ Heatmap plugstarttime: 35791394
+03-01 17:21:16.797  1309  1332 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29531970
+03-01 17:21:16.797  1309  1332 E HeatmapThread: !@Could not open '/efs/FactoryApp/bsoh', errno = 13
+03-01 17:21:16.797  1309  1332 E HeatmapThread: !@ CAM Could not access BSOH EFS
+03-01 17:21:16.797  1309  1332 E HeatmapThread: !@ CAM New BSOH: 0
+03-01 17:21:16.889  1658  1725 D BatteryExternalStatsWorker: update stats : procstate-change (14)
+03-01 17:21:16.890  1658  1725 D BatteryExternalStatsWorker: Fetch WiFi data
+03-01 17:21:16.890  1658  1725 D BatteryExternalStatsWorker: Update Rail Energy data
+03-01 17:21:16.892  1658  1725 D BatteryExternalStatsWorker: mStats lock released
+03-01 17:21:16.892  1658  1725 D BatteryExternalStatsWorker: done updateExternalStatsLocked
+03-01 17:21:17.195  1658  3131 I NSLocationMonitor: getGPSUsingApps() called
+03-01 17:21:17.195  1263 22295 W C2BqBuffer: last successful dequeue was 2424591747 us ago, 29816 consecutive failures
+03-01 17:21:17.196  3114 17573 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-01 17:21:17.211  1658  3131 D MARs:ActiveTrafficFilter: filter : com.samsung.android.game.gamehome(0)
+03-01 17:21:17.211  1658  3131 D FreecessHandler: freeze com.samsung.android.game.gamehome(10079) result : 8
+03-01 17:21:17.377  1263 26049 W C2BqBuffer: last successful dequeue was 2120394864 us ago, 27122 consecutive failures
+03-01 17:21:17.438  1658  2106 D SemWifiTrafficPoller: getSoftApTotalTrafficInBytes:1144399035
+03-01 17:21:17.535  4356  4356 I SDHMS:LOAD: type: LoadsFreqs, value: 42:42:2:642500:1536000:533000:933000:1920000:533000:104:104:104
+03-01 17:21:17.588  1535  2150 I bauth_FPBAuthService: pcf : 0x1012, 0 ,2 ,0 ,0 ,0 ,2, 16.0.0.3
+03-01 17:21:17.588  1535  2150 I bauth_FPBAuthService: thread id : 2, preenroll_flag : 0, nd cnt : 1, cso : 2, et : 0
+03-01 17:21:17.588  1535  2150 I bauth_FPBAuthService: FPBAuthService, 11451
+03-01 17:21:17.716  1658  1740 D PowerManagerService: UserActivityState : 1 -> 2 groupId=0
+03-01 17:21:17.717  1658  1740 D PowerManagerService: displayReady: false groupId=0
+03-01 17:21:17.717  1658  1740 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-01 17:21:17.718  1658  1740 W DisplayPowerController[0]: Animating brightness: target=6(0.02), rate=0.706, reason=manual[54] -> dim[7] -> low_pwr[6]
+03-01 17:21:17.721  1658  1658 I MdnieScenarioControlService: action  :  com.samsung.server.PowerManagerService.action.USER_ACTIVITY
+03-01 17:21:17.722  1658  1740 D DisplayManagerService: handleBrightnessAnimation: started=true
+03-01 17:21:17.723  1658  1740 I RefreshRateTokenController: Adding refreshRateToken={ RefreshRateToken[->RefreshRateMinLimitToken:BrightnessAnim, mRefreshRate:60 acquire at 279745874 (now)}, caller=com.android.server.display.mode.RefreshRateController.createRefreshRateMinLimitToken:32 com.android.server.display.DisplayManagerService$$ExternalSyntheticLambda1.accept:394 com.android.server.display.DisplayPowerController.animateScreenBrightness:263 com.android.server.display.DisplayPowerController.updatePowerStateInternal:2573 com.android.server.display.DisplayPowerController.updatePowerState:9 
+03-01 17:21:17.728  1658  1740 D DisplayPowerController[0]: saveBrightnessInfo: brt:0.21176471 adjBrt:0.024705881 min:0.0039215684 max:1.0 hbm:0 tp:1.0 throttler:0 isAnimating:true
+03-01 17:21:17.728  1658  1740 V DisplayPowerController[0]: Brightness [0.024705881] reason changing to: 'manual [ low_pwr dim ]', previous reason: 'manual [ low_pwr ]'.
+03-01 17:21:17.728  1658  1740 I DisplayPowerController[0]: BrightnessEvent: brt=0.024705881 (27.0%), nits= -1.0, lux=-1.0, reason=manual [ low_pwr dim ], strat=FallbackBrightnessStrategy, state=ON, stateReason=DEFAULT_POLICY, policy=DIM, flags=low_power_mode , initBrt=0.19058824, rcmdBrt=NaN, preBrt=NaN, preLux=0.0, wasShortTermModelActive=false, autoBrightness=false (default), unclampedBrt=0.21176471, hbmMax=1.0, hbmMode=off, thrmMax=1.0, rbcStrength=-1, powerFactor=0.9, physDisp=Built-in Screen(local:4633128672291735931), logicalId=0, slowChange=false, rampSpeed=0.70588243
+03-01 17:21:17.730  1658  1740 D PowerManagerService: displayReady: true groupId=0
+03-01 17:21:17.731  1252  1252 I SehLight: lcd : 48+
+03-01 17:21:17.732  1658  1707 D BrightnessSynchronizer: onDisplayChanged() : displayId=0
+03-01 17:21:17.732  1658  1707 D BrightnessSynchronizer: updateScreenBrightness: displayId=0 type=2 mPreferredSettingValue=0.21176471(54) currentBrightnessInt=54 currentBrightnessIntFromFloat=54(0.21176471)
+03-01 17:21:17.735  8129  8129 D SecBrightnessController: updateSlider() - BrightnessDialog resetTimer()
+03-01 17:21:17.735  8129  8129 D SecBrightnessController: updateSlider() - BrightnessDialog resetTimer()
+03-01 17:21:17.742  1252  1252 I SehLight: lcd : 48-
+03-01 17:21:17.743  1252  1252 I SehLight: lcd : 45+
+03-01 17:21:17.759  1252  1252 I SehLight: lcd : 45-
+03-01 17:21:17.761  1252  1252 I SehLight: lcd : 42+
+03-01 17:21:17.774  1252  1252 I SehLight: lcd : 42-
+03-01 17:21:17.775  1252  1252 I SehLight: lcd : 39+
+03-01 17:21:17.791  1252  1252 I SehLight: lcd : 39-
+03-01 17:21:17.792  1252  1252 I SehLight: lcd : 36+
+03-01 17:21:17.797  1309  1332 E HeatmapThread: ECT Thread time in milliseconds: 1772365877
+03-01 17:21:17.797  1309  1332 D HeatmapThread: !@ batteryplugType : 0
+03-01 17:21:17.797  1309  1332 D HeatmapThread: !@ batteryLevel : 0  batteryTemperature : 0 
+03-01 17:21:17.797  1309  1332 D HeatmapThread: !@ Heatmap currtime: 29539431
+03-01 17:21:17.797  1309  1332 D HeatmapThread: !@ Heatmap prevtime: 29539419
+03-01 17:21:17.797  1309  1332 D HeatmapThread: !@ Heatmap plugstarttime: 35791394
+03-01 17:21:17.797  1309  1332 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29531970
+03-01 17:21:17.798  1309  1332 E HeatmapThread: !@Could not open '/efs/FactoryApp/bsoh', errno = 13
+03-01 17:21:17.798  1309  1332 E HeatmapThread: !@ CAM Could not access BSOH EFS
+03-01 17:21:17.798  1309  1332 E HeatmapThread: !@ CAM New BSOH: 0
+03-01 17:21:17.808  1252  1252 I SehLight: lcd : 36-
+03-01 17:21:17.809  1252  1252 I SehLight: lcd : 33+
+03-01 17:21:17.825  1252  1252 I SehLight: lcd : 33-
+03-01 17:21:17.826  1252  1252 I SehLight: lcd : 30+
+03-01 17:21:17.841  1252  1252 I SehLight: lcd : 30-
+03-01 17:21:17.843  1252  1252 I SehLight: lcd : 27+
+03-01 17:21:17.859  1252  1252 I SehLight: lcd : 27-
+03-01 17:21:17.860  1252  1252 I SehLight: lcd : 24+
+03-01 17:21:17.876  1252  1252 I SehLight: lcd : 24-
+03-01 17:21:17.878  1252  1252 I SehLight: lcd : 21+
+03-01 17:21:17.891  1252  1252 I SehLight: lcd : 21-
+03-01 17:21:17.893  1252  1252 I SehLight: lcd : 18+
+03-01 17:21:17.903   657   657 D io_stats: !@   8,0 r 34111802 623133983 w 12755844 186240104 d 3904313 182444932 f 0 1085259 iot 27263424 0 th 0 0 0 pt 0 inp 0 0 279746.055
+03-01 17:21:17.905   657   657 D io_stats: !@ Read_top(KB): sait.sohservice(15072) 3644 kworker/u16:7(4769) 8 sait.sohservice(7040) 4
+03-01 17:21:17.905   657   657 D io_stats: !@ Write_top(KB): system_server(1658) 36
+03-01 17:21:17.908  1252  1252 I SehLight: lcd : 18-
+03-01 17:21:17.910  1252  1252 I SehLight: lcd : 15+
+03-01 17:21:17.926  1252  1252 I SehLight: lcd : 15-
+03-01 17:21:17.928 27863 13220 I .gms.persistent: Explicit concurrent mark compact GC freed 5572KB AllocSpace bytes, 4(208KB) LOS objects, 66% free, 22MB/66MB, paused 566us,6.951ms total 182.126ms
+03-01 17:21:17.929  1252  1252 I SehLight: lcd : 12+
+03-01 17:21:17.942  1252  1252 I SehLight: lcd : 12-
+03-01 17:21:17.943  1252  1252 I SehLight: lcd : 9+
+03-01 17:21:17.958  1658  1740 D DisplayPowerController[0]: animateScreenStateChange: target=ON, mIsEnabled=true
+03-01 17:21:17.959  1252  1252 I SehLight: lcd : 9-
+03-01 17:21:17.959  1658  1740 D DisplayPowerController[0]: saveBrightnessInfo: brt:0.21176471 adjBrt:0.024705881 min:0.0039215684 max:1.0 hbm:0 tp:1.0 throttler:0 isAnimating:false
+03-01 17:21:17.960  1252  1252 I SehLight: lcd : 6+
+03-01 17:21:17.962  1658  1707 D BrightnessSynchronizer: onDisplayChanged() : displayId=0
+03-01 17:21:17.963  1658  1707 D BrightnessSynchronizer: updateScreenBrightness: displayId=0 type=2 mPreferredSettingValue=0.21176471(54) currentBrightnessInt=54 currentBrightnessIntFromFloat=54(0.21176471)
+03-01 17:21:17.966  8129  8129 D SecBrightnessController: updateSlider() - BrightnessDialog resetTimer()
+03-01 17:21:17.967  8129  8129 D SecBrightnessController: updateSlider() - BrightnessDialog resetTimer()
+03-01 17:21:17.974  1252  1252 I SehLight: lcd : 6-
+03-01 17:21:18.117  1658  3020 I SemWifiApDataUsage: handleMessage: 14
+03-01 17:21:18.117  1658  3020 I SemWifiApEbpf: DATA_USAGE_STATS_START_POLL,mhs= true,upstream= 2,client size 2
+03-01 17:21:18.118  1658  3020 D SemWifiApEbpf: getWifiApDataUsageForOverAllMhs():  overall data is1145596407
+03-01 17:21:18.119  1658  3020 I SemWifiApEbpf: updating the overall dataUsage , overall =1145596407 , global = {mTotalDataBytes=1141654116,mTotalDataIngressBytes=0,mTotalDataEgressBytes=0,mCellularBytes=1141654116,mCurrentDayAndSimCellularBytes=1141654116}
+03-01 17:21:18.158  1658  1740 D DisplayManagerService: handleBrightnessAnimation: started=false
+03-01 17:21:18.161  1658  1740 I RefreshRateTokenController: Removing refreshRateToken={ RefreshRateToken[->RefreshRateMinLimitToken:BrightnessAnim, mRefreshRate:60 acquire at 279745874 (437 ms ago)}, caller=com.android.server.display.mode.RefreshRateToken.release:5 com.android.server.display.DisplayManagerService$$ExternalSyntheticLambda1.accept:405 com.android.server.display.DisplayPowerController$3.run:24 android.os.Handler.handleCallback:995 android.os.Handler.dispatchMessage:103 
+03-01 17:21:18.441  1658  2106 D SemWifiTrafficPoller: getSoftApTotalTrafficInBytes:1146126495
+03-01 17:21:18.588  1535  2150 I bauth_FPBAuthService: pcf : 0x1012, 0 ,2 ,0 ,0 ,0 ,2, 16.0.0.3
+03-01 17:21:18.588  1535  2150 I bauth_FPBAuthService: thread id : 2, preenroll_flag : 0, nd cnt : 1, cso : 2, et : 0
+03-01 17:21:18.588  1535  2150 I bauth_FPBAuthService: FPBAuthService, 11451
+03-01 17:21:18.797  1309  1332 E HeatmapThread: ECT Thread time in milliseconds: 1772365878
+03-01 17:21:18.797  1309  1332 D HeatmapThread: !@ batteryplugType : 0
+03-01 17:21:18.797  1309  1332 D HeatmapThread: !@ batteryLevel : 0  batteryTemperature : 0 
+03-01 17:21:18.797  1309  1332 D HeatmapThread: !@ Heatmap currtime: 29539431
+03-01 17:21:18.797  1309  1332 D HeatmapThread: !@ Heatmap prevtime: 29539419
+03-01 17:21:18.797  1309  1332 D HeatmapThread: !@ Heatmap plugstarttime: 35791394
+03-01 17:21:18.797  1309  1332 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29531970
+03-01 17:21:18.798  1309  1332 E HeatmapThread: !@Could not open '/efs/FactoryApp/bsoh', errno = 13
+03-01 17:21:18.798  1309  1332 E HeatmapThread: !@ CAM Could not access BSOH EFS
+03-01 17:21:18.798  1309  1332 E HeatmapThread: !@ CAM New BSOH: 0
+03-01 17:21:19.442  1658  2106 D SemWifiTrafficPoller: getSoftApTotalTrafficInBytes:1147552381
+03-01 17:21:19.589  1535  2150 I bauth_FPBAuthService: pcf : 0x1012, 0 ,2 ,0 ,0 ,0 ,2, 16.0.0.3
+03-01 17:21:19.589  1535  2150 I bauth_FPBAuthService: thread id : 2, preenroll_flag : 0, nd cnt : 1, cso : 2, et : 0
+03-01 17:21:19.589  1535  2150 I bauth_FPBAuthService: FPBAuthService, 11451
+03-01 17:21:19.644  1658  3020 I SemWifiApDataUsage: handleMessage: 15
+03-01 17:21:19.669  1658  3020 D SemWifiApDbHistoryTableHelper: insertOrUpdateOnGivenDate() : data has been updated or inserted for date=2026-03-01
+03-01 17:21:19.684  1658  3020 I SemWifiApDbSimTableHelper: updated for SIM : 8991027330**********
+03-01 17:21:19.789  1328  1328 I SurfaceFlinger: SFWD update time=279747940618635
+03-01 17:21:19.793  2386  2552 I Tethering: [BpfCoordinator] onAlertReached
+03-01 17:21:19.797  1309  1332 E HeatmapThread: ECT Thread time in milliseconds: 1772365879
+03-01 17:21:19.797  1309  1332 D HeatmapThread: !@ batteryplugType : 0
+03-01 17:21:19.797  1309  1332 D HeatmapThread: !@ batteryLevel : 0  batteryTemperature : 0 
+03-01 17:21:19.797  1309  1332 D HeatmapThread: !@ Heatmap currtime: 29539431
+03-01 17:21:19.797  1309  1332 D HeatmapThread: !@ Heatmap prevtime: 29539419
+03-01 17:21:19.797  1309  1332 D HeatmapThread: !@ Heatmap plugstarttime: 35791394
+03-01 17:21:19.797  1309  1332 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29531970
+03-01 17:21:19.798  1309  1332 E HeatmapThread: !@Could not open '/efs/FactoryApp/bsoh', errno = 13
+03-01 17:21:19.798  1309  1332 E HeatmapThread: !@ CAM Could not access BSOH EFS
+03-01 17:21:19.798  1309  1332 E HeatmapThread: !@ CAM New BSOH: 0
+03-01 17:21:19.906   657   657 D io_stats: !@   8,0 r 34111803 623133987 w 12755864 186240260 d 3904313 182444932 f 0 1085261 iot 27263464 0 th 0 0 0 pt 0 inp 0 0 279748.057
+03-01 17:21:20.198  1263 23921 W C2BqBuffer: last successful dequeue was 1259918008 us ago, 19297 consecutive failures
+03-01 17:21:20.443  1658  2106 D SemWifiTrafficPoller: getSoftApTotalTrafficInBytes:1148906341
+03-01 17:21:20.589  1535  2150 I bauth_FPBAuthService: pcf : 0x1012, 0 ,2 ,0 ,0 ,0 ,2, 16.0.0.3
+03-01 17:21:20.589  1535  2150 I bauth_FPBAuthService: thread id : 2, preenroll_flag : 0, nd cnt : 1, cso : 2, et : 0
+03-01 17:21:20.589  1535  2150 I bauth_FPBAuthService: FPBAuthService, 11451
+03-01 17:21:20.741  1658  3131 I NSLocationMonitor: getGPSUsingApps() called
+03-01 17:21:20.744  3114 17573 I NSLocationManager_FLP: getGPSUsingApps, No change
+03-01 17:21:20.757  1658  3131 D FreecessHandler: freeze com.example.way(10429) result : 12
+03-01 17:21:20.797  1309  1332 E HeatmapThread: ECT Thread time in milliseconds: 1772365880
+03-01 17:21:20.797  1309  1332 D HeatmapThread: !@ batteryplugType : 0
+03-01 17:21:20.797  1309  1332 D HeatmapThread: !@ batteryLevel : 0  batteryTemperature : 0 
+03-01 17:21:20.797  1309  1332 D HeatmapThread: !@ Heatmap currtime: 29539431
+03-01 17:21:20.797  1309  1332 D HeatmapThread: !@ Heatmap prevtime: 29539419
+03-01 17:21:20.797  1309  1332 D HeatmapThread: !@ Heatmap plugstarttime: 35791394
+03-01 17:21:20.798  1309  1332 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29531970
+03-01 17:21:20.798  1309  1332 E HeatmapThread: !@Could not open '/efs/FactoryApp/bsoh', errno = 13
+03-01 17:21:20.798  1309  1332 E HeatmapThread: !@ CAM Could not access BSOH EFS
+03-01 17:21:20.798  1309  1332 E HeatmapThread: !@ CAM New BSOH: 0
+03-01 17:21:20.860  1658  2026 W NetworkPolicy: shared quota unsupported; generating rule for each iface
+03-01 17:21:20.869  1658  2026 D NetworkPolicy: Ultra data saving mode installed then go to Devicecare
+03-01 17:21:20.869  1658  2026 I NotificationManager: android: notify(34, NetworkPolicy:2027116453:34, Notification(channel=NETWORK_ALERTS shortcut=null contentView=null vibrate=null sound=null tick defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE color=0xff888fa2 actions=1 vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0)) as user
+03-01 17:21:20.872  1658  2026 W PermissionService: getPermissionFlags: Unknown user -1
+03-01 17:21:20.872  1658  2026 W PermissionService: getPermissionFlags: Unknown user -1
+03-01 17:21:20.939  2220  2547 D PhoneInterfaceManager: setDataEnabledForReason() Reason=1 Pid=1658 App=system
+03-01 17:21:21.063 27863 12635 I NearbyMediums: No BLE Fast/GATT advertisements found in the latest cycle.
+03-01 17:21:21.063 27863 12635 I NearbyMediums: Current Tracked Scanning Clients are : {NearbyConnections.EnvironmentMonitor, NearbyConnections.TxAdvertisement}
+03-01 17:21:21.086  1658  1658 I Telecom : SamsungTelecomServiceImpl : isInManagedCall - callingPackage : android / callingUser : UserHandle{0} / hasCrossUserAccess : true
+03-01 17:21:21.093  1658  1658 D EdgeLightingManager: showForNotification : isInteractive=true, isHeadUp=true, color=0, canBypassDnd=false, packageName = android
+03-01 17:21:21.094  1658  1658 W CoverManager: getCoverState : This device is not supported cover
+03-01 17:21:21.094  1658  1658 D EdgeLightingPolicyManager: putNotification tickerText:true,titleText:true,text:true,sub:falsecn= + null
+03-01 17:21:21.094  1658  1658 D EdgeLightingPolicyManager.NotificationGroup: Remove previous child data. -1|android|34|NetworkPolicy:2027116453:34|1000
+03-01 17:21:21.094  1658  1658 D EdgeLightingPolicyManager.NotificationGroup: group notification count : 30
+03-01 17:21:21.095  1658  1658 I EdgeLightingManager: showForNotificationScreenOn Alert once notification. sbn: StatusBarNotification(pkg=android user=UserHandle{-1} id=34 tag=NetworkPolicy:2027116453:34 key=-1|android|34|NetworkPolicy:2027116453:34|1000: Notification(channel=NETWORK_ALERTS shortcut=null contentView=null vibrate=null sound=null tick defaults=0 flags=ONGOING_EVENT|ONLY_ALERT_ONCE|CAN_COLORIZE color=0xff888fa2 actions=1 vis=PRIVATE semFlags=0x0 semPriority=0 semMissedCount=0))
+03-01 17:21:21.121  2861  6948 I HoneySpace.NotificationListener: onNotificationPosted android: -1|android|34|NetworkPolicy:2027116453:34|1000: 0
+03-01 17:21:21.122  2861  6948 I HoneySpace.NotificationListener: invalid notification: android UserHandle{-1}: canShowBadge is false
+03-01 17:21:21.134  8129  8129 D Bubbles : onEntryUpdated : shouldBubbleUp=false ,key=-1|android|34|NetworkPolicy:2027116453:34|1000
+03-01 17:21:21.134  8129  8129 D InterruptionStateProvider:  no Heads up : edgelighting enabled app. -1|android|34|NetworkPolicy:2027116453:34|1000
+03-01 17:21:21.135  8129  8129 D InterruptionStateProvider:  no Heads up : edgelighting enabled app. -1|android|34|NetworkPolicy:2027116453:34|1000
+03-01 17:21:21.147  8129  8129 W RefactorFlag: New code path expects SceneContainerFlag to be enabled.
+03-01 17:21:21.147  8129  8129 D ExpandableNotifRow: mMaxSmallHeight different before reInflateViews mMaxSmallHeight: 189 mTempSmallHeight:0 -1|android|34|NetworkPolicy:2027116453:34|1000
+03-01 17:21:21.147  8129  8129 D ExpandableNotifRow: mMaxSmallHeight different before reInflateViews mMaxSmallHeight: 189 mTempSmallHeight:0 -1|android|34|NetworkPolicy:2027116453:34|1000
+03-01 17:21:21.151  8129  8129 I LockscreenNotificationIconsOnlyController: onNotificationInfoUpdated 0
+03-01 17:21:21.151  8129  8129 I AODNotificationManager: updateNotification() 
+03-01 17:21:21.174  8129  8129 W RefactorFlag: New code path expects SceneContainerFlag to be enabled.
+03-01 17:21:21.191  8129  8129 D ExpandableNotifRow: mMaxSmallHeight different before reInflateViews mMaxSmallHeight: 189 mTempSmallHeight:0 -1|android|34|NetworkPolicy:2027116453:34|1000
+03-01 17:21:21.191  8129  8129 D ExpandableNotifRow: mMaxSmallHeight different before reInflateViews mMaxSmallHeight: 189 mTempSmallHeight:0 -1|android|34|NetworkPolicy:2027116453:34|1000
+03-01 17:21:21.191  8129  8129 D ExpandableNotifRow: mMaxSmallHeight different before reInflateViews mMaxSmallHeight: 189 mTempSmallHeight:0 -1|android|34|NetworkPolicy:2027116453:34|1000
+03-01 17:21:21.191  8129  8129 D ExpandableNotifRow: mMaxSmallHeight different before reInflateViews mMaxSmallHeight: 189 mTempSmallHeight:0 -1|android|34|NetworkPolicy:2027116453:34|1000
+03-01 17:21:21.215  8129  8129 W RefactorFlag: New code path expects SceneContainerFlag to be enabled.
+03-01 17:21:21.215  8129  8129 D ExpandableNotifRow: mMaxSmallHeight different before reInflateViews mMaxSmallHeight: 189 mTempSmallHeight:0 -1|android|34|NetworkPolicy:2027116453:34|1000
+03-01 17:21:21.215  8129  8129 D ExpandableNotifRow: mMaxSmallHeight different before reInflateViews mMaxSmallHeight: 189 mTempSmallHeight:0 -1|android|34|NetworkPolicy:2027116453:34|1000
+03-01 17:21:21.219  8129  8129 I LockscreenNotificationIconsOnlyController: onNotificationInfoUpdated 0
+03-01 17:21:21.219  8129  8129 I AODNotificationManager: updateNotification() 
+03-01 17:21:21.319  1263 23903 W C2BqBuffer: last successful dequeue was 2231749225 us ago, 28059 consecutive failures

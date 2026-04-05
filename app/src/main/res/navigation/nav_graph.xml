@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <!-- Global action: sign out → login (pops entire back stack) -->
+    <action
+        android:id="@+id/action_global_login"
+        app:destination="@id/loginFragment"
+        app:popUpTo="@id/nav_graph"
+        app:popUpToInclusive="true" />
+
+    <!-- ==================== SPLASH ==================== -->
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.way.ui.splash.SplashFragment"
+        android:label=""
+        tools:layout="@layout/fragment_splash">
+
+        <action
+            android:id="@+id/action_splash_to_login"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+
+        <action
+            android:id="@+id/action_splash_to_dashboard"
+            app:destination="@id/dashboardFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+
+        <action
+            android:id="@+id/action_splash_to_setup"
+            app:destination="@id/setupWizardFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <!-- ==================== AUTH ==================== -->
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.way.ui.auth.LoginFragment"
+        android:label=""
+        tools:layout="@layout/fragment_login">
+
+        <action
+            android:id="@+id/action_login_to_signup"
+            app:destination="@id/signupFragment" />
+
+        <action
+            android:id="@+id/action_login_to_dashboard"
+            app:destination="@id/dashboardFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+
+        <action
+            android:id="@+id/action_login_to_setup"
+            app:destination="@id/setupWizardFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/signupFragment"
+        android:name="com.example.way.ui.auth.SignupFragment"
+        android:label=""
+        tools:layout="@layout/fragment_signup">
+
+        <action
+            android:id="@+id/action_signup_to_setup"
+            app:destination="@id/setupWizardFragment"
+            app:popUpTo="@id/signupFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <!-- ==================== ONBOARDING ==================== -->
+    <fragment
+        android:id="@+id/setupWizardFragment"
+        android:name="com.example.way.ui.onboarding.SetupWizardFragment"
+        android:label=""
+        tools:layout="@layout/fragment_setup_wizard">
+
+        <action
+            android:id="@+id/action_setup_to_dashboard"
+            app:destination="@id/dashboardFragment"
+            app:popUpTo="@id/setupWizardFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <!-- ==================== MAIN TABS ==================== -->
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.way.ui.dashboard.DashboardFragment"
+        android:label="@string/nav_dashboard"
+        tools:layout="@layout/fragment_dashboard">
+
+        <action
+            android:id="@+id/action_dashboard_to_walk"
+            app:destination="@id/walkFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/contactsFragment"
+        android:name="com.example.way.ui.contacts.ContactsFragment"
+        android:label="@string/nav_contacts"
+        tools:layout="@layout/fragment_contacts" />
+
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.way.ui.history.HistoryFragment"
+        android:label="@string/nav_history"
+        tools:layout="@layout/fragment_history" />
+
+    <fragment
+        android:id="@+id/selfDefenseFragment"
+        android:name="com.example.way.ui.selfdefense.SelfDefenseFragment"
+        android:label="@string/nav_self_defense"
+        tools:layout="@layout/fragment_self_defense" />
+
+    <!-- ==================== WALK SESSION ==================== -->
+    <fragment
+        android:id="@+id/walkFragment"
+        android:name="com.example.way.ui.walk.WalkDestinationFragment"
+        android:label="Start Walk"
+        tools:layout="@layout/fragment_walk_destination">
+
+        <action
+            android:id="@+id/action_walkDestination_to_activeWalk"
+            app:destination="@id/activeWalkFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/activeWalkFragment"
+        android:name="com.example.way.ui.walk.ActiveWalkFragment"
+        android:label="Walk Active"
+        tools:layout="@layout/fragment_walk">
+
+        <action
+            android:id="@+id/action_activeWalk_to_safetyCheck"
+            app:destination="@id/safetyCheckFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/safetyCheckFragment"
+        android:name="com.example.way.ui.walk.SafetyCheckFragment"
+        android:label=""
+        tools:layout="@layout/fragment_safety_check" />
+
+    <!-- ==================== SETTINGS ==================== -->
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.way.ui.settings.SettingsFragment"
+        android:label="@string/settings_title"
+        tools:layout="@layout/fragment_settings">
+
+        <action
+            android:id="@+id/action_settings_to_locations"
+            app:destination="@id/frequentLocationsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/frequentLocationsFragment"
+        android:name="com.example.way.ui.settings.FrequentLocationsFragment"
+        android:label="Saved Locations"
+        tools:layout="@layout/fragment_frequent_locations" />
+
+</navigation>
+

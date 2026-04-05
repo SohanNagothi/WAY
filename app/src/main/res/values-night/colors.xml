@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- WAY Brand Colors — Dark Mode                -->
+    <!-- ═══════════════════════════════════════════ -->
+
+    <!-- Primary palette -->
+    <color name="way_primary">#4DB6AC</color>
+    <color name="way_primary_dark">#00897B</color>
+    <color name="way_primary_light">#80CBC4</color>
+    <color name="way_primary_container">#004D40</color>
+    <color name="way_on_primary">#003731</color>
+    <color name="way_on_primary_container">#B2DFDB</color>
+
+    <!-- Secondary palette -->
+    <color name="way_secondary">#FFB74D</color>
+    <color name="way_secondary_container">#5F3D00</color>
+    <color name="way_on_secondary">#3E2700</color>
+    <color name="way_on_secondary_container">#FFE082</color>
+
+    <!-- Tertiary -->
+    <color name="way_tertiary">#4FC3F7</color>
+    <color name="way_tertiary_container">#004A77</color>
+
+    <!-- Accent -->
+    <color name="way_accent">#FFB74D</color>
+    <color name="way_accent_light">#FFE0B2</color>
+
+    <!-- Surface / Background -->
+    <color name="way_background">#0F1513</color>
+    <color name="way_surface">#1A201E</color>
+    <color name="way_surface_variant">#252B29</color>
+    <color name="way_surface_container">#1E2422</color>
+    <color name="way_on_surface">#E1E3E0</color>
+    <color name="way_on_surface_variant">#BFC9C5</color>
+    <color name="way_outline">#899390</color>
+    <color name="way_outline_variant">#3F4946</color>
+
+    <!-- Status colors -->
+    <color name="way_error">#FFB4AB</color>
+    <color name="way_error_container">#93000A</color>
+    <color name="way_on_error">#690005</color>
+    <color name="way_emergency_red">#EF5350</color>
+    <color name="way_safe_green">#66BB6A</color>
+    <color name="way_warning_amber">#FFB74D</color>
+
+    <!-- Card tints -->
+    <color name="way_card_tint_green">#1B3A1F</color>
+    <color name="way_card_tint_amber">#3E2700</color>
+    <color name="way_card_tint_red">#3B1416</color>
+    <color name="way_card_tint_blue">#0D2136</color>
+
+    <!-- Divider -->
+    <color name="way_divider">#2C3230</color>
+
+    <!-- Bottom nav -->
+    <color name="way_bottom_nav_bg">#1A201E</color>
+    <color name="way_bottom_nav_selected">#4DB6AC</color>
+    <color name="way_bottom_nav_unselected">#6F7976</color>
+
+    <!-- Splash -->
+    <color name="way_splash_bg">#004D40</color>
+    <color name="way_splash_dark">#00251A</color>
+    <color name="way_text_on_dark">#FFFFFF</color>
+    <color name="way_text_on_dark_secondary">#80CBC4</color>
+
+    <!-- Ripple -->
+    <color name="way_ripple">#204DB6AC</color>
+</resources>
+
